@@ -1,0 +1,19 @@
+{
+  "name": "homecare-facility-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./src/input.css -o ./public/styles.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^5.1.0",
+    "flowbite": "^2.5.2"
+  }
+}
