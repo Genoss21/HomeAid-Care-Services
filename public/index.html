@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="!scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body class="font-inter">
+  <body class="font-inter" id="home">
     <!--Navbar-->
 
     <nav
@@ -56,7 +56,7 @@
           >
             <li>
               <a
-                href="#"
+                href="#home"
                 class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
                 aria-current="page"
                 >Home</a
@@ -130,9 +130,9 @@
     <!--Hero section-->
 
     <section
-      class="lg:h-[850px] bg-center bg-no-repeat bg-[url('./Images/firewatch-game-tower-4k-1920x1080.jpg')] bg-gray-700 bg-blend-multiply lg:mb-20"
+      class="lg:h-[850px] bg-center bg-cover bg-no-repeat bg-[url('./Images/BG1.jpg')] bg-gray-700 bg-blend-multiply"
     >
-      <div class="flex flex-row lg:pt-56 lg:mx-16 lg:px-0 px-5">
+      <div class="flex lg:flex-row flex-col lg:pt-56 lg:mx-16 lg:px-0 px-5">
         <div class="basis-1/2 max-w-screen-xl py-24 lg:py-56">
           <div class="border-l px-6">
             <h1
@@ -183,8 +183,8 @@
     </section>
 
     <!--Our sevices-->
-    <div class="lg:p-16 p-5">
-      <div class="flex lg:flex-col my-10">
+    <section class="lg:p-16 px-5 py-10">
+      <div class="flex lg:flex-col">
         <a href="" class="inline-flex">
           <svg
             class="w-6 h-6 mr-5 text-gray-800 dark:text-white"
@@ -209,9 +209,7 @@
           Personalized home care for your loved ones' comfort and well-being
         </h1>
       </div>
-      <div
-        class="flex flex-col sm:flex-row lg:justify-start sm:space-y-0 lg:mb-10 my-10"
-      >
+      <div class="flex flex-col sm:flex-row lg:justify-start sm:space-y-0">
         <a
           href="#"
           class="inline-flex items-center py-3 uppercase text-base font-medium text-center text-white rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 lg:hover:scale-110 hover:scale-105 duration-300"
@@ -239,16 +237,16 @@
           <p class="text-black uppercase">Learn more</p>
         </a>
       </div>
-    </div>
-    <!--Our services card-->
-    <div class="">
-      <section class="bg-white dark:bg-gray-900">
-        <div class="lg:mx-16 mx-5 py-10">
-          <div class="grid grid-cols-1 gap-20 mt-8 lg:grid-cols-3">
+
+      <!--Our services card-->
+
+      <section class="bg-white dark:bg-gray-900 lg:py-16 py-10">
+        <div class="">
+          <div class="grid grid-cols-1 gap-20 lg:grid-cols-3">
             <div>
               <img
                 class="relative z-10 object-cover w-full rounded-md h-96"
-                src="./Images/firewatch-game-tower-4k-1920x1080.jpg"
+                src="./Images/S1.jpg"
                 alt=""
               />
 
@@ -276,7 +274,7 @@
             <div>
               <img
                 class="relative z-10 object-cover w-full rounded-md h-96"
-                src="./Images/firewatch-game-tower-4k-1920x1080.jpg"
+                src="./Images/S2.jpg"
                 alt=""
               />
 
@@ -303,7 +301,7 @@
             <div>
               <img
                 class="relative z-10 object-cover w-full rounded-md h-96"
-                src="./Images/firewatch-game-tower-4k-1920x1080.jpg"
+                src="./Images/S3.jpg"
                 alt=""
               />
 
@@ -330,16 +328,17 @@
           </div>
         </div>
       </section>
-    </div>
+    </section>
 
-    <!--About-->
+    <!--About section-->
     <section
-      class="lg:h-[850px] bg-center bg-no-repeat bg-[url('./Images/firewatch-game-tower-4k-1920x1080.jpg')] bg-gray-700 bg-blend-multiply lg:mb-20"
+      class="lg:h-[850px] bg-cover bg-center bg-no-repeat bg-[url('./Images/BG2.jpg')] bg-gray-700 bg-blend-multiply lg:mb-20"
     >
-      <div class="px-16 py-20">
-        <div class="flex flex-row h-[700px] border-l">
-          <div class="basis-1/2 px-6">
-            <!--About text-->
+      <div class="lg:px-16 px-5 py-20">
+        <div class="flex flex-row h-[700px] border-l items-start">
+          <!-- Main container with sticky -->
+          <div class="basis-1/2 px-6 sticky top-20">
+            <!-- About text -->
             <div class="flex lg:flex-col">
               <a href="" class="inline-flex">
                 <svg
@@ -360,14 +359,14 @@
                 <p class="text-white uppercase tracking-tight">About</p>
               </a>
             </div>
-            <!--About h1 text-->
+            <!-- About h1 text -->
             <div class="text-4xl text-white font-semibold my-10">
               <h1>
                 Personalized home care for your loved ones' comfort and
                 well-being
               </h1>
             </div>
-            <!--About sentece-->
+            <!-- About sentence -->
             <p class="text-gray-300">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
               quo. Modi quos facilis, quae deserunt minus fugiat laborum unde
@@ -376,9 +375,9 @@
               id ipsum natus non esse doloremque error doloribus animi obcaecati
               modi distinctio.
             </p>
-            <!--Learn more button-->
+            <!-- Learn more button -->
             <div
-              class="flex flex-col sm:flex-row lg:justify-start sm:space-y-0 lg:mb-10 my-10"
+              class="sm:flex-row lg:justify-start sm:space-y-0 lg:mb-10 my-10"
             >
               <a
                 href="#"
@@ -412,6 +411,232 @@
         </div>
       </div>
     </section>
+
+    <!--Random logo-->
+    <div class="h-[300px] flex flex-row bg-gray-200 p-16"></div>
+
+    <!--Testimonial-->
+    <div class="p-16"></div>
+
+    <!--Our team-->
+    <div class="flex flex-row space-x-4 lg:p-16 px-5 py-10">
+      <!--Teamate 1-->
+      <div
+        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+      >
+        <a href="#">
+          <img class="rounded-t-lg" src="./Images/D1.jpg" alt="" />
+        </a>
+        <div class="p-5">
+          <a href="#">
+            <h5
+              class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+            >
+              Noteworthy technology acquisitions 2021
+            </h5>
+          </a>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            Here are the biggest enterprise technology acquisitions of 2021 so
+            far, in reverse chronological order.
+          </p>
+          <a
+            href="#"
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Read more
+            <svg
+              class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 14 10"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 5h12m0 0L9 1m4 4L9 9"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <!--Teamate 2-->
+      <div
+        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+      >
+        <a href="#">
+          <img class="rounded-t-lg" src="./Images/D1.jpg" alt="" />
+        </a>
+        <div class="p-5">
+          <a href="#">
+            <h5
+              class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+            >
+              Noteworthy technology acquisitions 2021
+            </h5>
+          </a>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            Here are the biggest enterprise technology acquisitions of 2021 so
+            far, in reverse chronological order.
+          </p>
+          <a
+            href="#"
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Read more
+            <svg
+              class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 14 10"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 5h12m0 0L9 1m4 4L9 9"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <!--Teamate 3-->
+      <div
+        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+      >
+        <a href="#">
+          <img class="rounded-t-lg" src="./Images/D1.jpg" alt="" />
+        </a>
+        <div class="p-5">
+          <a href="#">
+            <h5
+              class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+            >
+              Noteworthy technology acquisitions 2021
+            </h5>
+          </a>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            Here are the biggest enterprise technology acquisitions of 2021 so
+            far, in reverse chronological order.
+          </p>
+          <a
+            href="#"
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Read more
+            <svg
+              class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 14 10"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 5h12m0 0L9 1m4 4L9 9"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <!--Teamate 4-->
+      <div
+        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+      >
+        <a href="#">
+          <img class="rounded-t-lg" src="./Images/D1.jpg" alt="" />
+        </a>
+        <div class="p-5">
+          <a href="#">
+            <h5
+              class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+            >
+              Noteworthy technology acquisitions 2021
+            </h5>
+          </a>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            Here are the biggest enterprise technology acquisitions of 2021 so
+            far, in reverse chronological order.
+          </p>
+          <a
+            href="#"
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Read more
+            <svg
+              class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 14 10"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 5h12m0 0L9 1m4 4L9 9"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <!--Teamate 5-->
+      <div
+        class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+      >
+        <a href="#">
+          <img class="rounded-t-lg" src="./Images/D1.jpg" alt="" />
+        </a>
+        <div class="p-5">
+          <a href="#">
+            <h5
+              class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+            >
+              Noteworthy technology acquisitions 2021
+            </h5>
+          </a>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            Here are the biggest enterprise technology acquisitions of 2021 so
+            far, in reverse chronological order.
+          </p>
+          <a
+            href="#"
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Read more
+            <svg
+              class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 14 10"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 5h12m0 0L9 1m4 4L9 9"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!--Contact Us -->
+    <div class="p-16"></div>
+
+    <!--Footer-->
+    <div class="p-16"></div>
     <!--Scripts-->
     <script
       type="module"
