@@ -1,7 +1,7 @@
 <?php ?>
 
 <!--Testimonial-->
-<div class="flex flex-col bg-gray-200 lg:p-16 p-5">
+<div class="flex flex-col bg-gray-200 lg:p-16 px-5 py-10 !scroll-smooth">
     <div class="flex lg:flex-col">
         <a href="" class="inline-flex">
             <svg class="w-6 h-6 mr-5 text-gray-800 dark:text-white" aria-hidden="true"

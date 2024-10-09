@@ -1,7 +1,7 @@
 <?php ?>
 
 <!--Hero section-->
-<div class="">
+<div class="!scroll-smooth">
     <section
         class="lg:max-h-[900px] mb-16 bg-center bg-cover bg-no-repeat bg-[url('./Images/BG1.jpg')] bg-gray-700 bg-blend-multiply">
         <div class="flex lg:flex-row flex-col lg:pt-56 lg:mx-16 lg:px-0 px-5">

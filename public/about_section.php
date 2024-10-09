@@ -2,7 +2,7 @@
 
 <!--About section-->
 <section
-    class="lg:h-[850px] bg-cover bg-center bg-no-repeat bg-[url('./Images/BG2.jpg')] bg-gray-700 bg-blend-multiply lg:mb-20">
+    class="lg:h-[850px] bg-cover bg-center bg-no-repeat bg-[url('./Images/BG2.jpg')] bg-gray-700 bg-blend-multiply lg:mb-20 !scroll-smooth">
     <div class="lg:px-16 px-5 py-20">
         <div class="flex flex-row h-[700px] border-l items-start">
             <!-- Main container with sticky -->
