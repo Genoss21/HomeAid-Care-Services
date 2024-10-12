@@ -17,8 +17,7 @@
 <body class="font-inter" id="home">
 
     <?php include 'navbar.php' ?>
-    <?php include 'about_section.php' ?>
-    <?php include 'contact_us.php' ?>
+    <?php include 'login.php' ?>
     <?php include 'footer.php' ?>
 
     <!--Scripts-->
