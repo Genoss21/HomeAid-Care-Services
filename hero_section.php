@@ -3,7 +3,7 @@
 <!--Hero section-->
 <div class="!scroll-smooth">
     <section
-        class="lg:max-h-[900px] mb-16 bg-center bg-cover bg-no-repeat bg-[url('./Images/BG1.jpg')] bg-gray-700 bg-blend-multiply">
+        class="lg:max-h-[900px] mb-16 bg-center bg-cover bg-no-repeat bg-[url('./Images/BG1.jpg')] bg-gray-800 bg-blend-multiply">
         <div class="flex lg:flex-row flex-col lg:pt-56 lg:mx-16 lg:px-0 px-5">
             <div class="basis-1/2 max-w-screen-xl py-24 lg:py-56">
                 <div class="border-l px-6">
@@ -18,8 +18,8 @@
                     <div class="flex flex-col sm:flex-row lg:justify-start sm:space-y-0 lg:mb-10 mb-32">
                         <a href="#"
                             class="inline-flex items-center py-3 uppercase text-base font-medium text-center text-white rounded-lg transition ease-in-out duration-300 hover:-translate-y-1 lg:hover:scale-110 hover:scale-105">
-                            <div class="p-4 mr-4 bg-black backdrop-blur-md">
-                                <svg class="w-6 h-6 text-white dark:text-black" aria-hidden="true"
+                            <div class="p-4 mr-4 bg-[#d1dded] backdrop-blur-md">
+                                <svg class="w-6 h-6 text-[#131930]" aria-hidden="true"
                                     xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                                     viewBox="0 0 24 24">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
