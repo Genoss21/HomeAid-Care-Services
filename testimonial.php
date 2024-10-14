@@ -4,8 +4,8 @@
     <div class="flex flex-col bg-gray-200 lg:p-16 px-5 py-10 !scroll-smooth">
         <div class="flex lg:flex-col">
             <a href="" class="inline-flex">
-                <svg class="w-6 h-6 mr-5 text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
-                    height="24" fill="currentColor" viewBox="0 0 24 24">
+                <svg class="w-6 h-6 mr-5 text-[#098698]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                    width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
                     <path fill-rule="evenodd"
                         d="M3 4a1 1 0 0 0-.822 1.57L6.632 12l-4.454 6.43A1 1 0 0 0 3 20h13.153a1 1 0 0 0 .822-.43l4.847-7a1 1 0 0 0 0-1.14l-4.847-7a1 1 0 0 0-.822-.43H3Z"
                         clip-rule="evenodd" />
@@ -14,7 +14,7 @@
             </a>
         </div>
         <div class="my-10">
-            <h1 class="text-4xl py-5">What Our Clients Say</h1>
+            <h1 class="text-4xl font-semibold py-5">What Our Clients Say</h1>
             <p class="text-lg lg:mr-[50%]">
                 We take pride in delivering exceptional care and support. Hear from
                 some of our clients who have experienced the difference our dedicated
@@ -24,7 +24,7 @@
         <div class="flex flex-col sm:flex-row lg:justify-start sm:space-y-0 py-5">
             <a href="#"
                 class="inline-flex items-center py-3 uppercase text-base font-medium text-center text-white rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 lg:hover:scale-110 hover:scale-105 duration-300">
-                <div class="p-4 mr-4 bg-black backdrop-blur-md">
+                <div class="p-4 mr-4 bg-[#098698] backdrop-blur-md">
                     <svg class="w-6 h-6 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
                         height="24" fill="none" viewBox="0 0 24 24">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -43,14 +43,16 @@
                     data-carousel-item>
                     <div class="">
                         <div class="p-6">
-                            <svg class="w-10 h-10 text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            <svg class="w-10 h-10 text-[#098698]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                                 width="24" height="24" fill="none" viewBox="0 0 24 24">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                     stroke-width="2"
                                     d="M10 11V8a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1Zm0 0v2a4 4 0 0 1-4 4H5m14-6V8a1 1 0 0 0-1-1h-3a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1Zm0 0v2a4 4 0 0 1-4 4h-1" />
                             </svg>
 
-                            <p class="p-6 text-4xl flex-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            <p class="p-6 lg:text-4xl text-md flex-wrap">Lorem ipsum dolor sit amet consectetur
+                                adipisicing
+                                elit.
                                 Expedita sint,
                                 cumque
                                 placeat sed ad
@@ -58,9 +60,8 @@
                                 nostrum
                                 vitae laborum officiis?</p>
 
-                            <br>
-                            <p class="px-6 pt-6 text-lg">Oliver Carter</p>
-                            <p class="px-6 text-xl text-gray-300">Web developer</p>
+                            <p class="px-6 lg:text-lg text-md text-[#098698]">Oliver Carter</p>
+                            <p class="px-6 lg:text-xl text-sm text-gray-300">Web developer</p>
                         </div>
                     </div>
                 </div>
@@ -69,21 +70,20 @@
                     data-carousel-item>
                     <div class="">
                         <div class="p-6">
-                            <svg class="w-10 h-10 text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            <svg class="w-10 h-10 text-[#098698]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                                 width="24" height="24" fill="none" viewBox="0 0 24 24">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                     stroke-width="2"
                                     d="M10 11V8a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1Zm0 0v2a4 4 0 0 1-4 4H5m14-6V8a1 1 0 0 0-1-1h-3a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1Zm0 0v2a4 4 0 0 1-4 4h-1" />
                             </svg>
 
-                            <p class="p-6 text-4xl flex-wrap">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                Accusantium reprehenderit iure incidunt inventore odio impedit mollitia necessitatibus
-                                assumenda? Modi recusandae amet, libero dolores rerum laboriosam. Ipsa labore esse vitae
-                                quibusdam.</p>
+                            <p class="p-6 lg:text-4xl text-md flex-wrap">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Praesentium inventore ex dolores pariatur odio iste modi repudiandae
+                                facere, exercitationem nulla.</p>
 
-                            <br>
-                            <p class="px-6 pt-6 text-lg">Oliver Carter</p>
-                            <p class="px-6 text-xl text-gray-300">Web developer</p>
+
+                            <p class="px-6 lg:text-lg text-md text-[#098698]">Oliver Carter</p>
+                            <p class="px-6 lg:text-xl text-sm text-gray-300">Web developer</p>
                         </div>
                     </div>
                 </div>
@@ -92,20 +92,20 @@
                     data-carousel-item>
                     <div class="">
                         <div class="p-6">
-                            <svg class="w-10 h-10 text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            <svg class="w-10 h-10 text-[#098698]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                                 width="24" height="24" fill="none" viewBox="0 0 24 24">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                     stroke-width="2"
                                     d="M10 11V8a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1Zm0 0v2a4 4 0 0 1-4 4H5m14-6V8a1 1 0 0 0-1-1h-3a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1Zm0 0v2a4 4 0 0 1-4 4h-1" />
                             </svg>
 
-                            <p class="p-6 text-4xl flex-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Voluptate maiores tempora suscipit! Natus neque perspiciatis odio ipsum laborum non ex
-                                dicta quisquam nemo nam, corrupti, officiis, accusantium perferendis?</p>
+                            <p class="p-6 lg:text-4xl text-md flex-wrap">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Non, repellat illum? Veritatis veniam corrupti mollitia ab quasi, ea
+                                labore quidem!</p>
 
-                            <br>
-                            <p class="px-6 pt-6 text-lg">Oliver Carter</p>
-                            <p class="px-6 text-xl text-gray-300">Web developer</p>
+
+                            <p class="px-6 lg:text-lg text-md text-[#098698]">Oliver Carter</p>
+                            <p class="px-6 lg:text-xl text-sm text-gray-300">Web developer</p>
                         </div>
                     </div>
                 </div>
@@ -114,20 +114,20 @@
                     data-carousel-item>
                     <div class="">
                         <div class="p-6">
-                            <svg class="w-10 h-10 text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            <svg class="w-10 h-10 text-[#098698]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                                 width="24" height="24" fill="none" viewBox="0 0 24 24">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                     stroke-width="2"
                                     d="M10 11V8a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1Zm0 0v2a4 4 0 0 1-4 4H5m14-6V8a1 1 0 0 0-1-1h-3a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1Zm0 0v2a4 4 0 0 1-4 4h-1" />
                             </svg>
 
-                            <p class="p-6 text-4xl flex-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Deserunt perspiciatis, quaerat quas vero corporis molestiae commodi natus inventore sit
-                                tempore magnam consequatur voluptates doloribus.</p>
+                            <p class="p-6 lg:text-4xl text-md flex-wrap">Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit. Impedit, ex! Reprehenderit fuga fugit nemo ad vitae iusto rem quaerat
+                                iure!</p>
 
-                            <br>
-                            <p class="px-6 pt-6 text-lg">Oliver Carter</p>
-                            <p class="px-6 text-xl text-gray-300">Web developer</p>
+
+                            <p class="px-6 pt-6 lg:text-lg text-md text-[#098698]">Oliver Carter</p>
+                            <p class="px-6 lg:text-xl text-sm text-gray-300">Web developer</p>
                         </div>
                     </div>
                 </div>
@@ -135,21 +135,19 @@
                     data-carousel-item>
                     <div class="">
                         <div class="p-6">
-                            <svg class="w-10 h-10 text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            <svg class="w-10 h-10 text-[#098698]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                                 width="24" height="24" fill="none" viewBox="0 0 24 24">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                     stroke-width="2"
                                     d="M10 11V8a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1Zm0 0v2a4 4 0 0 1-4 4H5m14-6V8a1 1 0 0 0-1-1h-3a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1Zm0 0v2a4 4 0 0 1-4 4h-1" />
                             </svg>
 
-                            <p class="p-6 text-4xl flex-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Inventore magni sint cupiditate facilis rerum saepe quo similique, voluptate
-                                necessitatibus dicta, porro commodi. Quasi ipsam natus itaque, nulla inventore vel illo?
-                                Esse.</p>
+                            <p class="p-6 lg:text-4xl text-md flex-wrap">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Ex quam blanditiis quis deserunt! Earum eos cumque praesentium sint.
+                                Debitis, porro.</p>
 
-                            <br>
-                            <p class="px-6 pt-6 text-lg">Oliver Carter</p>
-                            <p class="px-6 text-xl text-gray-300">Web developer</p>
+                            <p class="px-6 lg:text-lg text-md text-[#098698]">Oliver Carter</p>
+                            <p class="px-6 lg:text-xl text-sm text-gray-300">Web developer</p>
                         </div>
                     </div>
                 </div>
@@ -158,24 +156,20 @@
                     data-carousel-item>
                     <div class="">
                         <div class="p-6">
-                            <svg class="w-10 h-10 text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            <svg class="w-10 h-10 text-[#098698]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                                 width="24" height="24" fill="none" viewBox="0 0 24 24">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                     stroke-width="2"
                                     d="M10 11V8a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1Zm0 0v2a4 4 0 0 1-4 4H5m14-6V8a1 1 0 0 0-1-1h-3a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1Zm0 0v2a4 4 0 0 1-4 4h-1" />
                             </svg>
 
-                            <p class="p-6 text-4xl flex-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Expedita sint,
-                                cumque
-                                placeat sed ad
-                                reiciendis aspernatur iusto consectetur id vero quaerat nihil officia quam, saepe beatae
-                                nostrum
-                                vitae laborum officiis?</p>
+                            <p class="p-6 lg:text-4xl text-md flex-wrap">Lorem ipsum dolor, sit amet consectetur
+                                adipisicing elit. Nostrum voluptas architecto eligendi culpa exercitationem ipsa nemo
+                                dignissimos, laboriosam dolore laudantium?</p>
 
-                            <br>
-                            <p class="px-6 pt-6 text-lg">Oliver Carter</p>
-                            <p class="px-6 text-xl text-gray-300">Web developer</p>
+
+                            <p class="px-6 lg:text-lg text-md text-[#098698]">Oliver Carter</p>
+                            <p class="px-6 lg:text-xl text-sm text-gray-300">Web developer</p>
                         </div>
                     </div>
                 </div>
