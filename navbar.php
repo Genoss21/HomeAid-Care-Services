@@ -13,8 +13,10 @@ $activePage = basename($_SERVER['SCRIPT_NAME']);
 <nav class="sticky top-0 bg-white z-50 !scroll-smooth border-b-2">
     <div class="w-full flex flex-wrap items-center justify-between mx-auto lg:px-16 p-3">
         <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="Company loge here" class="h-8" alt="" />
-            <span class="self-center text-2xl font-semibold whitespace-nowrap text-[#098698]">[Company Name]</span>
+            <img src="Images\healthcare-hospital-medical-16-svgrepo-com.svg" class="h-9" alt="" />
+            <span class="self-center text-2xl font-semibold whitespace-nowrap tracking-tighter text-[#098698]">HomeAid
+                Care
+                Services</span>
         </a>
         <button data-collapse-toggle="navbar-dropdown" type="button"
             class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-slate-900 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
