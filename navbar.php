@@ -29,11 +29,11 @@ $activePage = basename($_SERVER['SCRIPT_NAME']);
         </button>
         <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
             <ul
-                class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  ">
+                class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
 
                 <?php foreach ($pages as $url => $title): ?>
                     <li>
-                        <a class="<?php echo ($url === $activePage) ? 'nav-button-active' : 'nav-button-not-active'; ?>"
+                        <a class="<?php echo ($url === $activePage) ? 'nav-button-active' : 'nav-button-not-active'; ?> hover:text-[#098698]"
                             href="<?php echo $url; ?>">
                             <?php echo $title; ?>
                         </a>
@@ -42,7 +42,7 @@ $activePage = basename($_SERVER['SCRIPT_NAME']);
 
                 <li>
                     <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar"
-                        class="flex items-center justify-between w-full py-2 px-3 text-slate-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto ">
+                        class="flex items-center justify-between w-full py-2 px-3 text-slate-900 rounded hover:text-[#098698] md:hover:bg-transparent md:p-0 md:w-auto ">
                         Dropdown
                         <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                             fill="none" viewBox="0 0 10 6">
