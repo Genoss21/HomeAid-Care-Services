@@ -32,8 +32,8 @@
             </div>
             <!--Logo-->
             <div class="basis-1/2">
-                <img class="lg:p-24 p-0 object-center delay-[5000ms] animate-fade-in lg:block sm:hidden"
-                    src="Images/online-doctor-animate.svg" alt="">
+                <img class="lg:p-24 p-0 object-center lg:block sm:hidden" src="./Images/online-doctor-animate.svg"
+                    alt="">
             </div>
         </div>
     </section>

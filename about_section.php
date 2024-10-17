@@ -8,7 +8,7 @@
     <div class="lg:px-16 px-5 py-20">
         <div class="flex flex-row h-[700px] w-full border-l items-start">
             <!-- Main container with sticky -->
-            <div class="px-6 sticky top-20 lg:w-[700px]">
+            <div class="px-6 sticky top-20 lg:w-[900px]">
                 <!-- About text -->
                 <div class="flex lg:flex-col">
                     <a href="" class="inline-flex">
