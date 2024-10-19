@@ -55,10 +55,10 @@ $activePage = basename($_SERVER['SCRIPT_NAME']);
                         class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 ">
                         <ul class="py-2 text-sm text-slate-900 " aria-labelledby="dropdownLargeButton">
                             <li>
-                                <a href="login_page.php" class="dropdown-buttons">Login</a>
+                                <a href="login_page.php" class="dropdown-buttons hover:text-[#098698]">Login</a>
                             </li>
                             <li>
-                                <a href="#" class="dropdown-buttons">Sign up</a>
+                                <a href="sign_up_page.php" class="dropdown-buttons hover:text-[#098698]">Sign up</a>
                             </li>
                         </ul>
                         <!--<div class="py-1">

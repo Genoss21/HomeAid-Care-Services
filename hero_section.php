@@ -16,7 +16,7 @@
                     </p>
                     <!--View services-->
                     <div class="flex flex-col sm:flex-row lg:justify-start sm:space-y-0 lg:mb-10 mb-32">
-                        <a href="#"
+                        <a href="our_services.php"
                             class="inline-flex items-center py-3 uppercase text-base font-medium text-center text-white rounded-lg transition ease-in-out duration-300 hover:-translate-y-1 lg:hover:scale-110 hover:scale-105">
                             <div class="p-4 mr-4 bg-[#098698] backdrop-blur-md">
                                 <svg class="w-6 h-6 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"

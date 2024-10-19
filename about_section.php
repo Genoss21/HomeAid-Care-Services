@@ -11,7 +11,7 @@
             <div class="px-6 sticky top-20 lg:w-[900px]">
                 <!-- About text -->
                 <div class="flex lg:flex-col">
-                    <a href="" class="inline-flex">
+                    <div class="inline-flex">
                         <svg class="w-6 h-6 mr-5 text-[#098698]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                             width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
                             <path fill-rule="evenodd"
@@ -19,7 +19,7 @@
                                 clip-rule="evenodd" />
                         </svg>
                         <p class="text-white uppercase tracking-tight">About</p>
-                    </a>
+                    </div>
                 </div>
                 <!-- About h1 text -->
                 <div class="lg:text-4xl text-3xl text-white font-semibold my-10">
@@ -39,7 +39,7 @@
                 </p>
                 <!-- Learn more button -->
                 <div class="sm:flex-row lg:justify-start sm:space-y-0 lg:mb-10 my-10">
-                    <a href="#"
+                    <a href="about_page.php"
                         class="inline-flex items-center py-3 uppercase text-base font-medium text-center text-white rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 lg:hover:scale-110 hover:scale-105 duration-300">
                         <div class="p-4 mr-4 bg-[#098698] backdrop-blur-md">
                             <svg class="w-6 h-6 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
