@@ -10,7 +10,7 @@
 }
 
 .nav-button-active {
-    @apply block py-2 px-3 text-[#031930] font-bold  md:p-0  ;
+    @apply block py-2 px-3 text-[#098698] font-bold  md:p-0  ;
 }
 
      .learn-more{
@@ -18,6 +18,10 @@
 }
 .dropdown-buttons{
     @apply block px-4 py-2 hover:bg-gray-100;
+}
+.profile_dropdown_buttons{
+    @apply block px-4 py-2 text-sm text-slate-900 hover:text-[#098698];
+
 }
     
 }
