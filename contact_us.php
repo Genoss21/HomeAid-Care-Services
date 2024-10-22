@@ -1,7 +1,7 @@
 <?php ?>
 
 <!--Contact Us -->
-<div class="mb-10 !scroll-smooth">
+<div class="!scroll-smooth">
     <section class="bg-black dark:bg-gray-900">
         <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-white ">
