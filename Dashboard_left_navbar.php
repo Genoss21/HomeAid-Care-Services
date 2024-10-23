@@ -2,7 +2,7 @@
 
 ?>
 
-<div class="basis-1/5 bg-gray-900 text-white">
+<div class="basis-1/5 bg-gray-900 text-white border-r-2">
 
     <div class="p-3">
         <ul class="flex flex-col space-y-4 pt-2">
