@@ -40,7 +40,8 @@
         <div class="">
             <div class="grid grid-cols-1 gap-20 lg:grid-cols-3">
                 <div>
-                    <img class="relative z-10 object-cover w-full rounded-md h-96" src="./Images/S1.jpg" alt="" />
+                    <img class="relative z-10 object-cover w-full rounded-md h-96" src="../assets/Images/S1.jpg"
+                        alt="" />
 
                     <div class="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow ">
                         <a href="#" class="font-semibold text-gray-800 hover:underline  md:text-xl">
@@ -57,7 +58,8 @@
                 </div>
 
                 <div>
-                    <img class="relative z-10 object-cover w-full rounded-md h-96" src="./Images/S2.jpg" alt="" />
+                    <img class="relative z-10 object-cover w-full rounded-md h-96" src="../assets/Images/S2.jpg"
+                        alt="" />
 
                     <div class="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow ">
                         <a href="#" class="font-semibold text-gray-800 hover:underline  md:text-xl">
@@ -73,7 +75,8 @@
                     </div>
                 </div>
                 <div>
-                    <img class="relative z-10 object-cover w-full rounded-md h-96" src="./Images/S3.jpg" alt="" />
+                    <img class="relative z-10 object-cover w-full rounded-md h-96" src="../assets/Images/S3.jpg"
+                        alt="" />
 
                     <div class="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow ">
                         <a href="#" class="font-semibold text-gray-800 hover:underline  md:text-xl">

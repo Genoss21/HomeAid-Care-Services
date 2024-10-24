@@ -4,12 +4,12 @@
 
 ?>
 
-<?php include 'header.php' ?>
+<?php include '../includes/header.php' ?>
 <?php include 'navbar.php' ?>
 <!--About section-->
 <div class="!scroll-smooth">
 
-    <section class="lg:max-h mb-16 bg-center bg-cover bg-no-repeat bg-[#505A63]">
+    <section class="lg:max-h mb-16 bg-[#505A63]">
         <div class="h-10 border-b-2 lg:mx-24 mx-10 border-gray-500"></div>
         <div class="flex lg:flex-row flex-col px-5">
             <div class="basis-1/2 h-max-screen max-w-screen-xl lg:pt-24 lg:px-24 p-5">
@@ -17,7 +17,7 @@
                     building for
                     peace.</h1>
                 <div class="lg:p-16 p-2">
-                    <img src="./Images/doctors-animate.svg" alt="">
+                    <img src="../assets/Images/doctors-animate.svg" alt="">
                 </div>
             </div>
 
@@ -91,4 +91,4 @@
     </section>
 </div>
 <?php include 'contact_us.php' ?>
-<?php include 'footer.php' ?>
+<?php include '../includes/footer.php' ?>

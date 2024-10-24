@@ -40,7 +40,7 @@
         <!--Teamate 1-->
         <div class="bg-white border border-gray-200 rounded-lg shadow  ">
             <a href="#">
-                <img class="rounded-t-lg" src="./Images/D1.jpg" alt="" />
+                <img class="rounded-t-lg" src="../assets/Images/D1.jpg" alt="" />
             </a>
             <div class="p-5">
                 <a href="#">
@@ -68,7 +68,7 @@
         <!--Teamate 2-->
         <div class="bg-white border border-gray-200 rounded-lg shadow ">
             <a href="#">
-                <img class="rounded-t-lg" src="./Images/D1.jpg" alt="" />
+                <img class="rounded-t-lg" src="../assets/Images/D1.jpg" alt="" />
             </a>
             <div class="p-5">
                 <a href="#">
@@ -96,7 +96,7 @@
         <!--Teamate 3-->
         <div class="bg-white border border-gray-200 rounded-lg shadow ">
             <a href="#">
-                <img class="rounded-t-lg" src="./Images/D1.jpg" alt="" />
+                <img class="rounded-t-lg" src="../assets/Images/D1.jpg" alt="" />
             </a>
             <div class="p-5">
                 <a href="#">
@@ -124,7 +124,7 @@
         <!--Teamate 4-->
         <div class="bg-white border border-gray-200 rounded-lg shadow ">
             <a href="#">
-                <img class="rounded-t-lg" src="./Images/D1.jpg" alt="" />
+                <img class="rounded-t-lg" src="../assets/Images/D1.jpg" alt="" />
             </a>
             <div class="p-5">
                 <a href="#">
@@ -152,7 +152,7 @@
         <!--Teamate 5-->
         <div class="bg-white border border-gray-200 rounded-lg shadow ">
             <a href="#">
-                <img class="rounded-t-lg" src="./Images/D1.jpg" alt="" />
+                <img class="rounded-t-lg" src="../assets/Images/D1.jpg" alt="" />
             </a>
             <div class="p-5">
                 <a href="#">
@@ -180,7 +180,7 @@
         <!--Teamate 6-->
         <div class="bg-white border border-gray-200 rounded-lg shadow ">
             <a href="#">
-                <img class="rounded-t-lg" src="./Images/D1.jpg" alt="" />
+                <img class="rounded-t-lg" src="../assets/Images/D1.jpg" alt="" />
             </a>
             <div class="p-5">
                 <a href="#">
