@@ -4,7 +4,7 @@
 
 ?>
 
-<?php include '../includes/header.php' ?>
+<?php include 'header.php' ?>
 <?php include 'navbar.php' ?>
 <!--About section-->
 <div class="!scroll-smooth">
@@ -17,7 +17,7 @@
                     building for
                     peace.</h1>
                 <div class="lg:p-16 p-2">
-                    <img src="../assets/Images/doctors-animate.svg" alt="">
+                    <img src="./assets/Images/doctors-animate.svg" alt="">
                 </div>
             </div>
 
@@ -91,4 +91,4 @@
     </section>
 </div>
 <?php include 'contact_us.php' ?>
-<?php include '../includes/footer.php' ?>
+<?php include 'footer.php' ?>

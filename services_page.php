@@ -3,7 +3,7 @@
 
 
 ?>
-<?php include '../includes/header.php' ?>
+<?php include 'header.php' ?>
 <?php include 'navbar.php' ?>
 <section class="lg:p-16 px-5 py-10 !scroll-smooth">
 
@@ -45,7 +45,7 @@
             <div class="grid grid-cols-1 gap-20 lg:grid-cols-3">
 
                 <div>
-                    <img class="relative z-10 object-cover w-full rounded-md h-96" src="../assets/Images/S3.jpg"
+                    <img class="relative z-10 object-cover w-full rounded-md h-96" src="./assets/Images/S3.jpg"
                         alt="" />
 
                     <div class="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow ">
@@ -62,7 +62,7 @@
                     </div>
                 </div>
                 <div>
-                    <img class="relative z-10 object-cover w-full rounded-md h-96" src="../assets/Images/S3.jpg"
+                    <img class="relative z-10 object-cover w-full rounded-md h-96" src="./assets/Images/S3.jpg"
                         alt="" />
 
                     <div class="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow ">
@@ -79,7 +79,7 @@
                     </div>
                 </div>
                 <div>
-                    <img class="relative z-10 object-cover w-full rounded-md h-96" src="../assets/Images/S3.jpg"
+                    <img class="relative z-10 object-cover w-full rounded-md h-96" src="./assets/Images/S3.jpg"
                         alt="" />
 
                     <div class="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow ">
@@ -96,7 +96,7 @@
                     </div>
                 </div>
                 <div>
-                    <img class="relative z-10 object-cover w-full rounded-md h-96" src="../assets/Images/S3.jpg"
+                    <img class="relative z-10 object-cover w-full rounded-md h-96" src="./assets/Images/S3.jpg"
                         alt="" />
 
                     <div class="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow ">
@@ -113,7 +113,7 @@
                     </div>
                 </div>
                 <div>
-                    <img class="relative z-10 object-cover w-full rounded-md h-96" src="../assets/Images/S3.jpg"
+                    <img class="relative z-10 object-cover w-full rounded-md h-96" src="./assets/Images/S3.jpg"
                         alt="" />
 
                     <div class="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow ">
@@ -130,7 +130,7 @@
                     </div>
                 </div>
                 <div>
-                    <img class="relative z-10 object-cover w-full rounded-md h-96" src="../assets/Images/S3.jpg"
+                    <img class="relative z-10 object-cover w-full rounded-md h-96" src="./assets/Images/S3.jpg"
                         alt="" />
 
                     <div class="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow ">
@@ -150,4 +150,4 @@
     </section>
 </section>
 <?php include 'contact_us.php' ?>
-<?php include '../includes/footer.php' ?>
+<?php include 'footer.php' ?>
