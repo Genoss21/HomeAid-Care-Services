@@ -1,15 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./*.{html,js,php}",
-    "./node_modules/flowbite/**/*.js"
+    "./admin/**/*.php",      // PHP files in the /admin directory
+    "./includes/**/*.php",    // PHP files in the /includes directory
+    "./*.{html,js,php}",      // Root-level HTML, JS, and PHP files
+    "./src/**/*.css",         // CSS files in /src (for input.css)
+    "./node_modules/flowbite/**/*.js" // Flowbite files
   ],
   
-   theme: {
+  theme: {
     extend: {
-      animation: {
-        'fade-in': 'fadeIn 2s ease-in-out forwards',
-      },
       keyframes: {
         fadeIn: {
           '0%': { opacity: '0' },

@@ -1,21 +1,22 @@
 <?php
-//include 'config.php';
 
+include 'admin_header.php'
 
-?>
-<?php include '../includes/header.php' ?>
-<?php include 'dashboard_nav_bar.php' ?>
+    ?>
+
 <div class="flex flex-row h-screen">
     <!--Left Navbar-->
-    <?php include 'dashboard_left_navbar.php' ?>
+    <?php include 'sidebar.php' ?>
     <div class="basis-5/6">
         <!--Navbar for the Dashboard-->
         <nav class="bg-gray-900 border-gray-200 text-white border-b-2">
             <div class="w-full flex items-center justify-between p-4">
+
                 <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
                     <span class="self-center text-2xl font-semibold whitespace-nowrap">Dashboard</span>
                 </a>
-                <div class="flex md:order-2">
+
+                <div class="flex">
                     <button type="button" data-collapse-toggle="navbar-search" aria-controls="navbar-search"
                         aria-expanded="false"
                         class="md:hidden text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-200 rounded-lg text-sm p-2.5 me-1">
@@ -49,11 +50,53 @@
                                 d="M1 1h15M1 7h15M1 13h15" />
                         </svg>
                     </button>
+                    <div class="flex items-center">
+                        <div class="flex items-center ms-3">
+                            <div>
+                                <button type="button"
+                                    class="flex text-sm bg-gray-800 rounded-full focus:ring-4 focus:ring-gray-300"
+                                    aria-expanded="false" data-dropdown-toggle="dropdown-user">
+                                    <span class="sr-only">Open user menu</span>
+                                    <img class="w-10 h-10 rounded-full" src="../assets/Images/Fritz.jpg"
+                                        alt="user photo">
+                                </button>
+                            </div>
+                            <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-xl shadow"
+                                id="dropdown-user">
+                                <div class="px-4 py-3" role="none">
+                                    <p class="text-sm text-gray-900 " role="none">
+                                        Neil Sims
+                                    </p>
+                                    <p class="text-sm font-medium text-gray-900 truncate" role="none">
+                                        Admin@hopitalcompany.com
+                                    </p>
+                                </div>
+                                <ul class="py-1" role="none">
+                                    <li>
+                                        <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                                            role="menuitem">Dashboard</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                                            role="menuitem">Settings</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                                            role="menuitem">Earnings</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                                            role="menuitem">Sign out</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
 
-        <div class="flex flex-wrap p-8 space-x-8">
+        <div class="flex-grow flex flex-wrap p-8 space-x-8">
             <button type="button"
                 class="dashboard_add_buttons bg-cover bg-[url('../assets/Images/Add-Patient.jpg')] hover:bg-[url('../assets/Images/Add-Patient.gif')]">
                 <div class="inline-flex absolute top-3 left-2">
@@ -92,4 +135,4 @@
         </div>
     </div>
 </div>
-<?php include '../includes/footer.php' ?>
+<?php include 'admin_footer.php' ?>
