@@ -1,15 +1,15 @@
 <?php
 $userTab = array();
-$userTab["admin_acc_page.php"] = "Admin";
-$userTab["employee_acc_page.php"] = "Employee";
-$userTab["visitor_acc_page.php"] = "Visitors";
+$userTab["admin_acc.php"] = "Admin";
+$userTab["employee_acc.php"] = "Employee";
+$userTab["visitor_acc.php"] = "Visitors";
 
 $activeuserTab = basename($_SERVER['SCRIPT_NAME']);
 
 $dataTab = array();
-$dataTab["patient_tb_page.php"] = "Patients";
-$dataTab["doctor_tb_page.php"] = "Doctors";
-$dataTab["nurse_tb_page.php"] = "Nurses";
+$dataTab["patient_tb.php"] = "Patients";
+$dataTab["doctor_tb.php"] = "Doctors";
+$dataTab["nurse_tb.php"] = "Nurses";
 
 $activedataTab = basename($_SERVER['SCRIPT_NAME']);
 
@@ -35,7 +35,7 @@ $activePage = basename($_SERVER['SCRIPT_NAME']);
     <div class="p-3">
         <ul class="flex flex-col space-y-4 pt-2">
             <li>
-                <a href="dashboard_page.php" class="flex items-center p-3 rounded-lg hover:bg-gray-700 group">
+                <a href="dashboard.php" class="flex items-center p-3 rounded-lg hover:bg-gray-700 group">
                     <svg class="w-6 h-6 text-white transition duration-75 group-hover:text-white" aria-hidden="true"
                         xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
