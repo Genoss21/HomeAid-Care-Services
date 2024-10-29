@@ -33,7 +33,7 @@ $activePage = basename($_SERVER['SCRIPT_NAME']);
 <div class="basis-1/6 bg-gray-900 text-gray-500 border-r-2">
 
     <div class="p-3">
-        <ul class="flex flex-col space-y-4 pt-2">
+        <ul class="flex flex-col space-y-4 pt-1">
             <li>
                 <a href="dashboard.php" class="flex items-center p-3 rounded-lg hover:bg-gray-700 group">
                     <svg class="w-6 h-6 text-white transition duration-75 group-hover:text-white" aria-hidden="true"
