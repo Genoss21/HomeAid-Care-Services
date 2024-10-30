@@ -7,7 +7,6 @@ include 'admin_header.php'
 <div class="flex flex-row h-screen">
     <!--Left Navbar-->
     <?php include 'sidebar.php' ?>
-    <!--Table-->
     <div class="basis-5/6 overflow-hidden">
         <!--Navbar for the Dashboard-->
         <?php include 'admin_navbar.php' ?>
@@ -82,7 +81,7 @@ include 'admin_header.php'
                                 </div>
                             </th>
                             <th scope="col" class="px-6 py-3">
-                                Doctor ID
+                                Employee ID
                             </th>
                             <th scope="col" class="px-6 py-3">
                                 Full Name

@@ -42,7 +42,7 @@
                                 fritztobes.admin@hopitalcompany.com
                             </p>
                         </div>
-                        <ul class="py-1" role="none">
+                        <ul class="py-2" role="none">
                             <li>
                                 <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                                     role="menuitem">Dashboard</a>

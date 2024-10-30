@@ -31,8 +31,8 @@ include 'admin_header.php'
                     </button>
                     <!-- Dropdown menu -->
                     <div id="dropdownAction"
-                        class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
-                        <ul class="py-1 text-sm text-gray-700 dark:text-gray-200"
+                        class="z-20 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                        <ul class="py-2 text-sm text-gray-700 dark:text-gray-200"
                             aria-labelledby="dropdownActionButton">
                             <li>
                                 <a href="#"
@@ -48,7 +48,7 @@ include 'admin_header.php'
                                     account</a>
                             </li>
                         </ul>
-                        <div class="py-1">
+                        <div class="py-2">
                             <a href="#"
                                 class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Delete
                                 User</a>
@@ -128,8 +128,7 @@ include 'admin_header.php'
                                 class="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                 <img class="w-10 h-10 rounded-full" src="../assets/Images/user.jpg" alt="Admin Image">
                                 <div class="ps-3">
-                                    <div class="text-base font-semibold">Fritz Tobes</div>
-                                    <div class="font-normal text-gray-500">Super Admin</div>
+                                    <div class="text-base font-semibold">Fritz Jerome Tobes</div>
                                 </div>
                             </th>
 
@@ -152,7 +151,7 @@ include 'admin_header.php'
 
                             <!-- Last Login Column -->
                             <td class="px-6 py-4">
-                                2024-10-25 15:30
+                                10-25-2024
                             </td>
 
                             <!-- Actions Column -->
