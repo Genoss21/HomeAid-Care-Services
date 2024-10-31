@@ -12,6 +12,8 @@ include 'admin_header.php'
         <!--Navbar for the Dashboard-->
         <?php include 'admin_navbar.php' ?>
         <!--Table-->
+
+
         <div class="relative shadow-md sm:rounded-lg">
             <div
                 class="flex items-center justify-between flex-column flex-wrap md:flex-row space-y-4 md:space-y-0 bg-white dark:bg-gray-900">
@@ -71,9 +73,8 @@ include 'admin_header.php'
                 <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                     <!--To make the thead stick on the top I used sticky -->
                     <thead
-                        class="sticky top-0 z-10 text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-                        <tr
-                            class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
+                        class="sticky top-0 z-10 text-xs text-center text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                        <tr>
                             <th scope="col" class="p-4">
                                 <div class="flex items-center">
                                     <input id="checkbox-all-search" type="checkbox"
@@ -88,29 +89,34 @@ include 'admin_header.php'
                                 Full Name
                             </th>
                             <th scope="col" class="px-6 py-3">
-                                Email
+                                Specialization
                             </th>
                             <th scope="col" class="px-6 py-3">
-                                Phone Number
+                                Contact Information
                             </th>
                             <th scope="col" class="px-6 py-3">
-                                Position/Job Title
+                                Availability
                             </th>
                             <th scope="col" class="px-6 py-3">
-                                Date of Hire
+                                Patient Count
                             </th>
                             <th scope="col" class="px-6 py-3">
                                 Status
                             </th>
                             <th scope="col" class="px-6 py-3">
+                                Last Login
+                            </th>
+                            <th scope="col" class="px-6 py-3">
                                 Action
                             </th>
+
+
                         </tr>
                     </thead>
 
                     <tbody class="overflow-y-auto">
                         <tr
-                            class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                            class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700 text-center">
                             <!-- Checkbox Column -->
                             <td class="w-4 p-4">
                                 <div class="flex items-center">
@@ -119,50 +125,56 @@ include 'admin_header.php'
                                     <label for="checkbox-table-search-2" class="sr-only">checkbox</label>
                                 </div>
                             </td>
-
-                            <!-- Employee ID Column -->
-                            <td class="px-6 py-4">
-                                000002
+                            <!-- Doctor ID Column -->
+                            <td class="px-6 py-3 text-sm">
+                                D001
                             </td>
 
                             <!-- Name and Image Column -->
-                            <th scope="row"
-                                class="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                <img class="w-10 h-10 rounded-full" src="../assets/Images/user.jpg" alt="Admin Image">
-                                <div class="ps-3">
-                                    <div class="text-base font-semibold">Fritz Jerome Tobes</div>
+                            <td scope="row"
+                                class="flex items-center px-6 py-3 text-sm font-medium whitespace-nowrap justify-center">
+                                <img class="w-8 h-8 rounded-full" src="../assets/Images/user.jpg" alt="Doctor Image">
+                                <div class="ps-2">
+                                    <div class="">Dr. Sarah Johnson</div>
                                 </div>
-                            </th>
-
-                            <!-- Email Column -->
-                            <td class="px-6 py-4">
-                                fritztobes@hopitalcompany.com
                             </td>
 
-                            <!-- Phone Number Column -->
-                            <td class="px-6 py-4">
-                                +63 9053-543-5675
+                            <!-- Specialization Column -->
+                            <td class="px-6 py-3 text-sm">
+                                Cardiology
                             </td>
 
-                            <!-- Position/Job Title Column -->
-                            <td class="px-6 py-4">
-                                Doctor
+                            <!-- Contact Information Column -->
+                            <td class="px-6 py-3 text-sm">
+                                (987) 654-3210
                             </td>
 
-                            <!-- Date Hired Column -->
-                            <td class="px-6 py-4">
-                                10-25-2024
+                            <!-- Availability Column -->
+                            <td class="px-6 py-3 text-sm">
+                                Mon-Fri: 9 AM - 5 PM
+                            </td>
+
+                            <!-- Patient Count Column -->
+                            <td class="px-6 py-3 text-sm">
+                                50
                             </td>
 
                             <!-- Status Column -->
-                            <td class="px-6 py-4">
-                                <p class="text-red-500">Sick Leave</p>
+                            <td class="px-6 py-3 text-sm">
+                                <div class="flex items-center justify-center">
+                                    <div class="h-2 w-2 rounded-full bg-green-500 me-1"></div> Active
+                                </div>
+                            </td>
+
+                            <!-- Last Login Column -->
+                            <td class="px-6 py-3 text-sm">
+                                10-30-2024
                             </td>
 
                             <!-- Actions Column -->
-                            <td class="px-6 py-4">
+                            <td class="px-6 py-3 text-sm">
                                 <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit
-                                    User</a>
+                                    Doctor</a>
                             </td>
                         </tr>
                     </tbody>

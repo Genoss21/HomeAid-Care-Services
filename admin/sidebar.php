@@ -1,16 +1,17 @@
 <?php
 $userTab = array();
-$userTab["admin_acc.php"] = "Admin";
-$userTab["employee_acc.php"] = "Employee";
-$userTab["client_acc.php"] = "Clients";
-$userTab["visitor_acc.php"] = "Visitors";
+$userTab["admin_acc.php"] = "Admin Accounts";
+$userTab["employee_acc.php"] = "Employee Accounts";
+$userTab["client_acc.php"] = "Client Accounts";
+$userTab["visitor_acc.php"] = "Visitors Accounts";
 
 $activeuserTab = basename($_SERVER['SCRIPT_NAME']);
 
 $dataTab = array();
-$dataTab["patient_tb.php"] = "Patients";
-$dataTab["doctor_tb.php"] = "Doctors";
-$dataTab["nurse_tb.php"] = "Nurses";
+$dataTab["patient_tb.php"] = "Patients data";
+$dataTab["doctor_tb.php"] = "Doctors data";
+$dataTab["nurse_tb.php"] = "Nurses data";
+$dataTab["client_tb.php"] = "Clients data";
 
 $activedataTab = basename($_SERVER['SCRIPT_NAME']);
 
