@@ -83,10 +83,11 @@ include 'admin_header.php'
                             </th>
                             <th scope="col" class="px-6 py-3">ID</th>
                             <th scope="col" class="px-6 py-3">Name</th>
-                            <th scope="col" class="px-6 py-3">Visit Purpose</th>
-                            <th scope="col" class="px-6 py-3">Host</th>
-                            <th scope="col" class="px-6 py-3">Visit Date</th>
+                            <th scope="col" class="px-6 py-3">Email</th>
+                            <th scope="col" class="px-6 py-3">Contact Number</th>
+                            <th scope="col" class="px-6 py-3">Patient Name</th>
                             <th scope="col" class="px-6 py-3">Status</th>
+                            <th scope="col" class="px-6 py-3">Last Login</th>
                             <th scope="col" class="px-6 py-3">Action</th>
 
                         </tr>
@@ -97,7 +98,7 @@ include 'admin_header.php'
                             class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600 text-center">
                             <!-- Checkbox Column -->
                             <td class="w-4 p-4">
-                                <div class="flex items-center justify-center">
+                                <div class="flex items-center">
                                     <input id="checkbox-table-search-2" type="checkbox"
                                         class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                                     <label for="checkbox-table-search-2" class="sr-only">checkbox</label>
@@ -105,48 +106,42 @@ include 'admin_header.php'
                             </td>
 
                             <!-- ID Column -->
-                            <td class="px-6 py-4">
-                                V001
-                            </td>
+                            <td class="px-6 py-4">V001</td>
 
                             <!-- Name and Image Column -->
-                            <th scope="row"
+                            <td scope="row"
                                 class="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white justify-center">
-                                <img class="w-10 h-10 rounded-full" src="../assets/Images/user.jpg" alt="">
+                                <img class="w-10 h-10 rounded-full" src="../assets/Images/user.jpg"
+                                    alt="Employee Image">
                                 <div class="ps-3">
-                                    <div class="text-base font-semibold">Jane Doe</div>
+                                    <div class="text-base font-semibold">Fritz Tobes</div>
                                 </div>
-                            </th>
-
-                            <!-- Visit Purpose Column -->
-                            <td class="px-6 py-4">
-                                Interview
                             </td>
 
-                            <!-- Host Column -->
-                            <td class="px-6 py-4">
-                                John Smith (HR)
-                            </td>
+                            <!-- Email Column -->
+                            <td class="px-6 py-4">fritztobes@example.com</td>
 
-                            <!-- Visit Date Column -->
-                            <td class="px-6 py-4">
-                                10-31-2024
-                            </td>
+                            <!-- Contact Column -->
+                            <td class="px-6 py-4">+63 9024-256-9870</td>
+
+                            <!-- Patients Name Column -->
+                            <td class="px-6 py-4"><a href="#"
+                                    class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Thor</a></td>
 
                             <!-- Status Column -->
                             <td class="px-6 py-4">
                                 <div class="flex items-center justify-center">
-                                    <div class="h-2.5 w-2.5 rounded-full bg-blue-500 me-2"></div> Checked-In
+                                    <div class="h-2.5 w-2.5 rounded-full bg-green-500 me-2"></div> Active
                                 </div>
                             </td>
 
-                            <!-- Actions Column -->
+                            <!-- Last Login Column -->
+                            <td class="px-6 py-4">10-31-2024</td>
+
+                            <!-- Action Column -->
                             <td class="px-6 py-4">
                                 <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">View
                                     Details</a>
-                                <a href="#"
-                                    class="ml-4 font-medium text-red-600 dark:text-red-500 hover:underline">Cancel
-                                    Visit</a>
                             </td>
                         </tr>
                     </tbody>
