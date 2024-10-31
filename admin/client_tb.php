@@ -7,7 +7,6 @@ include 'admin_header.php'
 <div class="flex flex-row h-screen">
     <!--Left Navbar-->
     <?php include 'sidebar.php' ?>
-    <!--Table-->
     <div class="basis-5/6 overflow-hidden">
         <!--Navbar for the Dashboard-->
         <?php include 'admin_navbar.php' ?>
@@ -36,21 +35,21 @@ include 'admin_header.php'
                             aria-labelledby="dropdownActionButton">
                             <li>
                                 <a href="#"
-                                    class="block px-6 py-3 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Reward</a>
+                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Reward</a>
                             </li>
                             <li>
                                 <a href="#"
-                                    class="block px-6 py-3 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Promote</a>
+                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Promote</a>
                             </li>
                             <li>
                                 <a href="#"
-                                    class="block px-6 py-3 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Activate
+                                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Activate
                                     account</a>
                             </li>
                         </ul>
                         <div class="py-2">
                             <a href="#"
-                                class="block px-6 py-3 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Delete
+                                class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Delete
                                 User</a>
                         </div>
                     </div>
@@ -73,7 +72,7 @@ include 'admin_header.php'
                 <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                     <!--To make the thead stick on the top I used sticky -->
                     <thead
-                        class="sticky top-0 z-10 text-xs text-center text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400 text-nowrap">
+                        class="sticky top-0 z-10 text-xs text-center text-nowrap text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                         <tr>
                             <th scope="col" class="p-4">
                                 <div class="flex items-center">
@@ -83,50 +82,33 @@ include 'admin_header.php'
                                 </div>
                             </th>
                             <th scope="col" class="px-6 py-3">
-                                Patient ID
+                                Client ID
                             </th>
                             <th scope="col" class="px-6 py-3">
                                 Full Name
                             </th>
                             <th scope="col" class="px-6 py-3">
-                                Date of Birth
-                            </th>
-                            <th scope="col" class="px-6 py-3">
-                                Gender
-                            </th>
-                            <th scope="col" class="px-6 py-3">
                                 Contact Information
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                Email
                             </th>
                             <th scope="col" class="px-6 py-3">
                                 Address
                             </th>
                             <th scope="col" class="px-6 py-3">
-                                Appointment Date
+                                Account Status
                             </th>
                             <th scope="col" class="px-6 py-3">
-                                Doctor Assigned
+                                Last Interaction
                             </th>
                             <th scope="col" class="px-6 py-3">
-                                Nurse Assigned
-                            </th>
-                            <th scope="col" class="px-6 py-3">
-                                Health Status
-                            </th>
-                            <th scope="col" class="px-6 py-3">
-                                Insurance Provider
-                            </th>
-                            <th scope="col" class="px-6 py-3">
-                                Admission Date
-                            </th>
-                            <th scope="col" class="px-6 py-3">
-                                Discharge Date
-                            </th>
-                            <th scope="col" class="px-6 py-3">
-                                Last Visit Date
+                                Assigned Representative
                             </th>
                             <th scope="col" class="px-6 py-3">
                                 Action
                             </th>
+
 
                         </tr>
                     </thead>
@@ -143,99 +125,54 @@ include 'admin_header.php'
                                 </div>
                             </td>
 
-                            <!-- Patient ID Column -->
-                            <td class="px-6 py-3 text-sm">
-                                P001
-                            </td>
+                            <!-- Client ID Column -->
+                            <td class="px-6 py-4">C001</td>
 
                             <!-- Name and Image Column -->
-                            <td scope="row"
-                                class="flex items-center px-6 py-3 text-sm font-medium whitespace-nowrap justify-center">
-                                <img class="w-8 h-8 rounded-full" src="../assets/Images/user.jpg" alt="Patient Image">
-                                <div class="ps-2">
+                            <th scope="row"
+                                class="flex items-center px-6 py-4 text-sm font-medium whitespace-nowrap justify-center">
+                                <img class="w-8 h-8 rounded-full" src="../assets/Images/user.jpg" alt="Client Image">
+                                <div class="ps-3">
                                     <div class="">Emily Carter</div>
                                 </div>
-                            </td>
+                            </th>
 
-                            <!-- Date of Birth Column -->
-                            <td class="px-6 py-3 text-sm">
-                                03-15-1985
-                            </td>
+                            <!-- Contact Column -->
+                            <td class="px-6 py-4">+63 9123-456-7890</td>
 
-                            <!-- Gender Column -->
-                            <td class="px-6 py-3 text-sm">
-                                Female
-                            </td>
-
-                            <!-- Contact Information Column -->
-                            <td class="px-6 py-3 text-sm">
-                                (123) 456-7890
-                            </td>
+                            <!-- Email Column -->
+                            <td class="px-6 py-4">emilycarter@example.com</td>
 
                             <!-- Address Column -->
-                            <td class="px-6 py-3 text-sm">
-                                123 Main St, Springfield, IL
+                            <td class="px-6 py-4">456 Elm St, Springfield, IL</td>
+
+                            <!-- Account Status Column -->
+                            <td class="px-6 py-4">
+                                <div class="flex items-center justify-center">
+                                    <div class="h-2.5 w-2.5 rounded-full bg-green-500 me-2"></div> Active
+                                </div>
                             </td>
 
-                            <!-- Appointment Date Column -->
-                            <td class="px-6 py-3 text-sm">
-                                11-05-2024
-                            </td>
+                            <!-- Last Interaction Column -->
+                            <td class="px-6 py-4">10-29-2024</td>
 
-                            <!-- Doctor Assigned Column -->
-                            <td scope="row" class=" px-6 py-3 font-medium text-sm whitespace-nowrap">
+                            <!-- Assigned Representative Column -->
+                            <td class="px-6 py-4">
                                 <div class="flex items-center justify-center">
                                     <img class="w-8 h-8 rounded-full" src="../assets/Images/user.jpg"
-                                        alt="Patient Image">
+                                        alt="Representative Image">
                                     <div class="ps-2">
-                                        <div class="">Dr. Sarah Johnson</div>
+                                        <div class="">Sarah Lee</div>
                                     </div>
                                 </div>
                             </td>
 
-                            <!-- Nurse Assigned Column -->
-                            <td scope="row" class=" px-6 py-3 font-medium text-sm whitespace-nowrap">
-                                <div class="flex items-center justify-center">
-                                    <img class="w-8 h-8 rounded-full" src="../assets/Images/user.jpg"
-                                        alt="Patient Image">
-                                    <div class="ps-2">
-                                        <div class="">Arah Johnson</div>
-                                    </div>
-                                </div>
-                            </td>
-
-                            <!-- Health Status Column -->
-                            <td class="px-6 py-3 text-sm">
-                                <div class="flex items-center justify-center">
-                                    <div class="h-2 w-2 rounded-full bg-yellow-500 me-1"></div> Stable
-                                </div>
-                            </td>
-
-                            <!-- Insurance Provider Column -->
-                            <td class="px-6 py-3 text-sm">
-                                HealthCare Plus
-                            </td>
-
-                            <!-- Admission Date Column -->
-                            <td class="px-6 py-3 text-sm">
-                                10-20-2024
-                            </td>
-
-                            <!-- Discharge Date Column -->
-                            <td class="px-6 py-3 text-sm">
-                                N/A
-                            </td>
-
-                            <!-- Last Visit Date Column -->
-                            <td class="px-6 py-3 text-sm">
-                                10-28-2024
-                            </td>
-
-                            <!-- Actions Column -->
-                            <td class="px-6 py-3 text-sm">
+                            <!-- Action Column -->
+                            <td class="px-6 py-4">
                                 <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">View
                                     Details</a>
                             </td>
+
                         </tr>
                     </tbody>
                 </table>
