@@ -73,7 +73,7 @@ include 'admin_header.php'
                 <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                     <!--To make the thead stick on the top I used sticky -->
                     <thead
-                        class="sticky top-0 z-10 text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                        class="sticky top-0 z-10 text-xs text-center text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                         <tr>
                             <th scope="col" class="p-4">
                                 <div class="flex items-center">
@@ -108,7 +108,7 @@ include 'admin_header.php'
 
                     <tbody class="overflow-y-auto">
                         <tr
-                            class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                            class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600 text-center">
                             <!-- Checkbox Column -->
                             <td class="w-4 p-4">
                                 <div class="flex items-center">
@@ -120,12 +120,12 @@ include 'admin_header.php'
 
                             <!-- ID Column -->
                             <td class="px-6 py-4">
-                                000001
+                                A001
                             </td>
 
                             <!-- Name and Image Column -->
                             <th scope="row"
-                                class="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                class="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white justify-center">
                                 <img class="w-10 h-10 rounded-full" src="../assets/Images/user.jpg" alt="Admin Image">
                                 <div class="ps-3">
                                     <div class="text-base font-semibold">Fritz Jerome Tobes</div>
@@ -144,7 +144,7 @@ include 'admin_header.php'
 
                             <!-- Status Column -->
                             <td class="px-6 py-4">
-                                <div class="flex items-center">
+                                <div class="flex items-center justify-center">
                                     <div class="h-2.5 w-2.5 rounded-full bg-green-500 me-2"></div> Active
                                 </div>
                             </td>

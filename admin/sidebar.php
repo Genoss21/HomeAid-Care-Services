@@ -2,6 +2,7 @@
 $userTab = array();
 $userTab["admin_acc.php"] = "Admin";
 $userTab["employee_acc.php"] = "Employee";
+$userTab["client_acc.php"] = "Clients";
 $userTab["visitor_acc.php"] = "Visitors";
 
 $activeuserTab = basename($_SERVER['SCRIPT_NAME']);
