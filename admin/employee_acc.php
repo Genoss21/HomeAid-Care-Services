@@ -11,6 +11,8 @@ include 'admin_header.php'
         <!--Navbar for the Dashboard-->
         <?php include 'admin_navbar.php' ?>
         <!--Table-->
+
+
         <div class="relative shadow-md sm:rounded-lg">
             <div
                 class="flex items-center justify-between flex-column flex-wrap md:flex-row space-y-4 md:space-y-0 bg-white dark:bg-gray-900">
@@ -70,9 +72,8 @@ include 'admin_header.php'
                 <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                     <!--To make the thead stick on the top I used sticky -->
                     <thead
-                        class="sticky top-0 z-10 text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-                        <tr
-                            class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
+                        class="sticky top-0 z-10 text-xs text-center text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                        <tr>
                             <th scope="col" class="p-4">
                                 <div class="flex items-center">
                                     <input id="checkbox-all-search" type="checkbox"
@@ -80,36 +81,20 @@ include 'admin_header.php'
                                     <label for="checkbox-all-search" class="sr-only">checkbox</label>
                                 </div>
                             </th>
-                            <th scope="col" class="px-6 py-3">
-                                Employee ID
-                            </th>
-                            <th scope="col" class="px-6 py-3">
-                                Full Name
-                            </th>
-                            <th scope="col" class="px-6 py-3">
-                                Email
-                            </th>
-                            <th scope="col" class="px-6 py-3">
-                                Phone Number
-                            </th>
-                            <th scope="col" class="px-6 py-3">
-                                Position/Job Title
-                            </th>
-                            <th scope="col" class="px-6 py-3">
-                                Date of Hire
-                            </th>
-                            <th scope="col" class="px-6 py-3">
-                                Status
-                            </th>
-                            <th scope="col" class="px-6 py-3">
-                                Action
-                            </th>
+                            <th scope="col" class="px-6 py-3">ID</th>
+                            <th scope="col" class="px-6 py-3">Name</th>
+                            <th scope="col" class="px-6 py-3">Department</th>
+                            <th scope="col" class="px-6 py-3">Position</th>
+                            <th scope="col" class="px-6 py-3">Email</th>
+                            <th scope="col" class="px-6 py-3">Status</th>
+                            <th scope="col" class="px-6 py-3">Last Login</th>
+                            <th scope="col" class="px-6 py-3">Action</th>
                         </tr>
                     </thead>
 
                     <tbody class="overflow-y-auto">
                         <tr
-                            class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                            class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600 text-center">
                             <!-- Checkbox Column -->
                             <td class="w-4 p-4">
                                 <div class="flex items-center">
@@ -119,49 +104,52 @@ include 'admin_header.php'
                                 </div>
                             </td>
 
-                            <!-- Employee ID Column -->
+                            <!-- ID Column -->
                             <td class="px-6 py-4">
-                                000002
+                                E001
                             </td>
 
                             <!-- Name and Image Column -->
-                            <th scope="row"
-                                class="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                <img class="w-10 h-10 rounded-full" src="../assets/Images/user.jpg" alt="Admin Image">
+                            <td scope="row"
+                                class="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white justify-center">
+                                <img class="w-10 h-10 rounded-full" src="../assets/Images/user.jpg"
+                                    alt="Employee Image">
                                 <div class="ps-3">
                                     <div class="text-base font-semibold">Fritz Jerome Tobes</div>
                                 </div>
-                            </th>
+                            </td>
+
+                            <!-- Department Column -->
+                            <td class="px-6 py-4">
+                                IT Department
+                            </td>
+
+                            <!-- Position Column -->
+                            <td class="px-6 py-4">
+                                Software Engineer
+                            </td>
 
                             <!-- Email Column -->
                             <td class="px-6 py-4">
-                                fritztobes@hopitalcompany.com
-                            </td>
-
-                            <!-- Phone Number Column -->
-                            <td class="px-6 py-4">
-                                +63 9053-543-5675
-                            </td>
-
-                            <!-- Position/Job Title Column -->
-                            <td class="px-6 py-4">
-                                Doctor
-                            </td>
-
-                            <!-- Date Hired Column -->
-                            <td class="px-6 py-4">
-                                10-25-2024
+                                fritztobes.employee@hospitalcompany.com
                             </td>
 
                             <!-- Status Column -->
                             <td class="px-6 py-4">
-                                <p class="text-red-500">Sick Leave</p>
+                                <div class="flex items-center justify-center">
+                                    <div class="h-2.5 w-2.5 rounded-full bg-green-500 me-2"></div> Active
+                                </div>
+                            </td>
+
+                            <!-- Last Login Column -->
+                            <td class="px-6 py-4">
+                                10-25-2024
                             </td>
 
                             <!-- Actions Column -->
                             <td class="px-6 py-4">
                                 <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit
-                                    User</a>
+                                    Employee</a>
                             </td>
                         </tr>
                     </tbody>
