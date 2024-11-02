@@ -83,8 +83,6 @@ include 'admin_header.php'
                             </th>
                             <th scope="col" class="px-6 py-3">ID</th>
                             <th scope="col" class="px-6 py-3">Name</th>
-                            <th scope="col" class="px-6 py-3">Department</th>
-                            <th scope="col" class="px-6 py-3">Position</th>
                             <th scope="col" class="px-6 py-3">Email</th>
                             <th scope="col" class="px-6 py-3">Status</th>
                             <th scope="col" class="px-6 py-3">Last Login</th>
@@ -117,16 +115,6 @@ include 'admin_header.php'
                                     <div class="">Fritz Jerome Tobes</div>
                                 </div>
                             </th>
-
-                            <!-- Department Column -->
-                            <td class="px-6 py-4">
-                                IT Department
-                            </td>
-
-                            <!-- Position Column -->
-                            <td class="px-6 py-4">
-                                Software Engineer
-                            </td>
 
                             <!-- Email Column -->
                             <td class="px-6 py-4">
