@@ -7,7 +7,10 @@
     <div class="w-full flex items-center justify-between p-4">
 
         <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
-            <span class="self-center text-2xl font-semibold whitespace-nowrap">Dashboard</span>
+            <span class="self-center text-2xl font-semibold whitespace-nowrap">
+                <?php echo $activeTabTitle; ?>
+            </span>
+
         </a>
 
         <div class="flex">
