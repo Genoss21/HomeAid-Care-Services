@@ -100,9 +100,7 @@ include 'admin_header.php'
                             <th scope="col" class="px-6 py-3">
                                 Address
                             </th>
-                            <th scope="col" class="px-6 py-3">
-                                Appointment Date
-                            </th>
+
                             <th scope="col" class="px-6 py-3">
                                 Doctor Assigned
                             </th>
@@ -111,9 +109,6 @@ include 'admin_header.php'
                             </th>
                             <th scope="col" class="px-6 py-3">
                                 Health Status
-                            </th>
-                            <th scope="col" class="px-6 py-3">
-                                Insurance Provider
                             </th>
                             <th scope="col" class="px-6 py-3">
                                 Admission Date
@@ -177,11 +172,6 @@ include 'admin_header.php'
                                 123 Main St, Springfield, IL
                             </td>
 
-                            <!-- Appointment Date Column -->
-                            <td class="px-6 py-3 text-sm">
-                                11-05-2024
-                            </td>
-
                             <!-- Doctor Assigned Column -->
                             <td scope="row" class=" px-6 py-3 font-medium text-sm whitespace-nowrap">
                                 <div class="flex items-center justify-center">
@@ -209,11 +199,6 @@ include 'admin_header.php'
                                 <div class="flex items-center justify-center">
                                     <div class="h-2 w-2 rounded-full bg-yellow-500 me-1"></div> Stable
                                 </div>
-                            </td>
-
-                            <!-- Insurance Provider Column -->
-                            <td class="px-6 py-3 text-sm">
-                                HealthCare Plus
                             </td>
 
                             <!-- Admission Date Column -->
