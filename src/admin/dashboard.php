@@ -1,6 +1,6 @@
 <?php
 
-include 'admin_header.php'
+include '../includes/header.php'
 
     ?>
 
@@ -13,7 +13,7 @@ include 'admin_header.php'
 
         <div class="flex-grow flex flex-wrap p-8 space-x-8">
             <button type="button"
-                class="dashboard_add_buttons bg-cover bg-[url('../assets/Images/Add-Patient.jpg')] hover:bg-[url('../assets/Images/Add-Patient.gif')] shadow-md">
+                class="dashboard_add_buttons bg-cover bg-[url('../../public/assets/images/Add-Patient.jpg')] hover:bg-[url('../../public/assets/images/Add-Patient.gif')] shadow-md">
                 <div class="inline-flex absolute top-3 left-2">
                     <svg class="w-5 h-5 text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
                         height="24" fill="none" viewBox="0 0 24 24">
@@ -25,7 +25,7 @@ include 'admin_header.php'
             </button>
 
             <button type="button"
-                class="dashboard_add_buttons bg-cover bg-[url('../assets/Images/Add-Doctors.jpg')] hover:bg-[url('../assets/Images/Add-Doctors.gif')] shadow-md">
+                class="dashboard_add_buttons bg-cover bg-[url('../../public/assets/images/Add-Doctors.jpg')] hover:bg-[url('../../public/assets/images/Add-Doctors.gif')] shadow-md">
                 <div class="inline-flex absolute top-3 left-2">
                     <svg class="w-5 h-5 text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
                         height="24" fill="none" viewBox="0 0 24 24">
@@ -37,7 +37,7 @@ include 'admin_header.php'
             </button>
 
             <button type="button"
-                class="dashboard_add_buttons bg-cover bg-[url('../assets/Images/Add-Nurse.jpg')] hover:bg-[url('../assets/Images/Add-Nurse.gif')] shadow-md">
+                class="dashboard_add_buttons bg-cover bg-[url('../../public/assets/images/Add-Nurse.jpg')] hover:bg-[url('../../public/assets/images/Add-Nurse.gif')] shadow-md">
                 <div class="inline-flex absolute top-3 left-2">
                     <svg class="w-5 h-5 text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
                         height="24" fill="none" viewBox="0 0 24 24">
@@ -50,4 +50,4 @@ include 'admin_header.php'
         </div>
     </div>
 </div>
-<?php include 'admin_footer.php' ?>
+<?php include '../includes/footer.php' ?>

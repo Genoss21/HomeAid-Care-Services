@@ -1,10 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./admin/**/*.php",      // PHP files in the /admin directory
-    "./includes/**/*.php",    // PHP files in the /includes directory
-    "./*.{html,js,php}",      // Root-level HTML, JS, and PHP files
-    "./src/**/*.css",         // CSS files in /src (for input.css)
+    "./src/admin/**/*.php",       // PHP files in the /src/admin directory
+    "./src/employee/**/*.php",     // PHP files in the /src/employee directory
+    "./src/client/**/*.php",       // PHP files in the /src/client directory
+    "./src/includes/**/*.php",     // PHP files in the /src/includes directory
+    "./public/*.html",             // Root-level HTML files in /public
+    "./public/css/**/*.css",       // CSS files in /public/css
     "./node_modules/flowbite/**/*.js" // Flowbite files
   ],
   
