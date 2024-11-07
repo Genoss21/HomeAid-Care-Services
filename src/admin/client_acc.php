@@ -1,6 +1,6 @@
 <?php
 
-include 'admin_header.php'
+include '../includes/header.php'
 
     ?>
 
@@ -125,7 +125,8 @@ include 'admin_header.php'
                             <!-- Name and Image Column -->
                             <th scope="row"
                                 class="flex items-center px-6 py-4 text-sm font-medium whitespace-nowrap justify-center">
-                                <img class="w-8 h-8 rounded-full" src="../assets/Images/user.jpg" alt="Client Image">
+                                <img class="w-8 h-8 rounded-full" src="../../public/assets/Images/user.jpg"
+                                    alt="Client Image">
                                 <div class="ps-3">
                                     <div class="">Emily Carter</div>
                                 </div>
@@ -159,4 +160,4 @@ include 'admin_header.php'
     </div>
 
 </div>
-<?php include 'admin_footer.php' ?>
+<?php include '../includes/footer.php' ?>

@@ -1,6 +1,6 @@
 <?php
 
-include 'admin_header.php'
+include '../includes/header.php'
 
     ?>
 
@@ -186,7 +186,7 @@ include 'admin_header.php'
                             <!-- Nurse Assigned Column -->
                             <td scope="row" class=" px-6 py-3 font-medium text-sm whitespace-nowrap">
                                 <div class="flex items-center justify-center">
-                                    <img class="w-8 h-8 rounded-full" src="../assets/Images/user.jpg"
+                                    <img class="w-8 h-8 rounded-full" src="../../public/assets/Images/user.jpg"
                                         alt="Patient Image">
                                     <div class="ps-2">
                                         <div class="">Arah Johnson</div>
@@ -230,4 +230,4 @@ include 'admin_header.php'
     </div>
 
 </div>
-<?php include 'admin_footer.php' ?>
+<?php include '../includes/footer.php' ?>
