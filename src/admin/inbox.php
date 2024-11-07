@@ -1,6 +1,7 @@
 <?php
 
-include 'admin_header.php'
+include '../includes/header.php'
+
 
     ?>
 
@@ -101,7 +102,10 @@ include 'admin_header.php'
 
                             <!-- Name and Image Column -->
                             <div class="flex items-center pl-6 pr-24 py-4 text-sm whitespace-nowrap justify-center">
-                                <img class="w-8 h-8 rounded-full" src="../assets/Images/user.jpg" alt="Client Image">
+                              
+                                <img class="w-8 h-8 rounded-full" src="../../public/assets/Images/user.jpg"
+                                    alt="Client Image">
+
                                 <div class="ps-3">
                                     <div class="font-bold">Emily Carter</div>
                                 </div>
@@ -131,4 +135,6 @@ include 'admin_header.php'
     </div>
 
 </div>
-<?php include 'admin_footer.php' ?>
+
+<?php include '../includes/footer.php' ?>
+
