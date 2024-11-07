@@ -1,6 +1,6 @@
 <?php
 
-include 'admin_header.php'
+include '../includes/header.php'
 
     ?>
 
@@ -69,66 +69,95 @@ include 'admin_header.php'
                 </div>
             </div>
             <div class="overflow-auto h-[900px]">
-                <div class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+                <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                     <!--To make the thead stick on the top I used sticky -->
-                    <div
-                        class="sticky top-0 z-10 text-sm text-center text-nowrap text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-                        <div class="flex">
-                            <div>
-                                <button class="text-center justify-center px-6 py-4 hover:bg-slate-500">
-                                    Clients
-                                </button>
-                            </div>
-                            <div>
-                                <button class="text-center justify-center px-6 py-4 hover:bg-slate-500">
-                                    Employees
-                                </button>
-                            </div>
-                        </div>
-                    </div>
+                    <thead
+                        class="sticky top-0 z-10 text-xs text-center text-nowrap text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                        <tr>
+                            <th scope="col" class="p-4">
+                                <div class="flex items-center">
+                                    <input id="checkbox-all-search" type="checkbox"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                                </div>
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                Client ID
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                Full Name
+                            </th>
 
-                    <div class="overflow-y-auto">
-                        <div
-                            class="flex odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700 text-center text-nowrap">
+                            <th scope="col" class="px-6 py-3">
+                                Email
+                            </th>
+
+                            <th scope="col" class="px-6 py-3">
+                                Account Status
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                Last Login
+                            </th>
+
+                            <th scope="col" class="px-6 py-3">
+                                Action
+                            </th>
+
+
+                        </tr>
+                    </thead>
+
+                    <tbody class="overflow-y-auto">
+                        <tr
+                            class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700 text-center text-nowrap">
                             <!-- Checkbox Column -->
+                            <td class="w-4 p-4">
+                                <div class="flex items-center">
+                                    <input id="checkbox-table-search-2" type="checkbox"
+                                        class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                                    <label for="checkbox-table-search-2" class="sr-only">checkbox</label>
+                                </div>
+                            </td>
 
-                            <div class="flex items-center p-4">
-                                <input id="checkbox-table-search-2" type="checkbox"
-                                    class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                <label for="checkbox-table-search-2" class="sr-only">checkbox</label>
-                            </div>
-
+                            <!-- Client ID Column -->
+                            <td class="px-6 py-4">C001</td>
 
                             <!-- Name and Image Column -->
-                            <div class="flex items-center pl-6 pr-24 py-4 text-sm whitespace-nowrap justify-center">
-                                <img class="w-8 h-8 rounded-full" src="../assets/Images/user.jpg" alt="Client Image">
+                            <th scope="row"
+                                class="flex items-center px-6 py-4 text-sm font-medium whitespace-nowrap justify-center">
+                                <img class="w-8 h-8 rounded-full" src="../../public/assets/Images/user.jpg"
+                                    alt="Client Image">
                                 <div class="ps-3">
-                                    <div class="font-bold">Emily Carter</div>
+                                    <div class="">Emily Carter</div>
                                 </div>
-                            </div>
+                            </th>
+
+                            <!-- Email Column -->
+                            <td class="px-6 py-4">emilycarter@example.com</td>
+
+                            <!-- Account Status Column -->
+                            <td class="px-6 py-4">
+                                <div class="flex items-center justify-center">
+                                    <div class="h-2.5 w-2.5 rounded-full bg-green-500 me-2"></div> Active
+                                </div>
+                            </td>
+
+                            <!-- Last Interaction Column -->
+                            <td class="px-6 py-4">10-29-2024</td>
 
                             <!-- Action Column -->
-                            <div class="flex items-center px-6 py-4 text-sm whitespace-nowrap justify-center">
-                                <p class="font-bold">
-                                    Fritz jerome Tobes</p>
-                                <p class="w-[1010px] truncate">
-                                    - Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ut praesentium
-                                    impedit dolorem deleniti nostrum doloribus rem dicta, quasi eaque. Alias suscipit
-                                    quod dolorum accusamus. Corrupti voluptates id optio suscipit quas. Animi, tenetur.
-                                    Ad numquam blanditiis odio deserunt animi porro.
-                                </p>
-                            </div>
-                            <div class="flex items-center px-6 py-4 text-sm whitespace-nowrap justify-center">
-                                <p class="font-bold">
-                                    6:24 PM</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                            <td class="px-6 py-4">
+                                <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">View
+                                    Details</a>
+                            </td>
+
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
 
     </div>
 
 </div>
-<?php include 'admin_footer.php' ?>
+<?php include '../includes/footer.php' ?>

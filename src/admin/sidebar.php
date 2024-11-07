@@ -11,10 +11,10 @@ $dropdownMappings = [
     'doctor_tb.php' => 'data.php',
     'nurse_tb.php' => 'data.php',
     'client_tb.php' => 'data.php',
-    '../index.php' => 'pages.php',
-    '../services_page.php' => 'pages.php',
-    '../about_page.php' => 'pages.php',
-    '../contact_us_page.php' => 'pages.php',
+    '../../public/index.php' => 'pages.php',
+    '../../public/components/services_page.php' => 'pages.php',
+    '../../public/components/about_page.php' => 'pages.php',
+    '../../public/components/contact_us_page.php' => 'pages.php',
 ];
 
 // Determine the active dropdown based on the current page.
@@ -71,7 +71,7 @@ $mainButtons = [
 $dropdownItems = array(
     "users.php" => array("admin_acc.php" => "Admins Account", "employee_acc.php" => "Employees Account", "client_acc.php" => "Clients Account"),
     "data.php" => array("patient_tb.php" => "Patients data", "doctor_tb.php" => "Doctors data", "nurse_tb.php" => "Nurses data", "client_tb.php" => "Clients data"),
-    "pages.php" => array("../index.php" => "Home", "../services_page.php" => "Services", "../about_page.php" => "About", "../contact_us_page.php" => "Contact Us"),
+    "pages.php" => array("../../public/index.php" => "Home", "../../public/components/services_page.php" => "Services", "../../public/components/about_page.php" => "About", "../../public/components/contact_us_page.php" => "Contact Us"),
 );
 
 // Initialize the active tab title
@@ -99,7 +99,7 @@ if (isset($mainButtons[$activePage])) {
                     class="<?php echo ($url === $activeDropdown) ? 'users_dropdown_active' : 'users_dropdown_not_active'; ?>">
                     <?php if (array_key_exists($url, $dropdownItems)): ?>
                         <button type="button"
-                            class="flex items-center w-full p-3 text-base transition duration-75 rounded-lg group hover:bg-gray-700"
+                            class="flex items-center w-full p-3 text-base transition duration-75 rounded-lg group hover:bg-gray-700 hover:text-white"
                             aria-controls="dropdown-<?php echo $url; ?>" data-collapse-toggle="dropdown-<?php echo $url; ?>">
                             <?php echo $button['svg']; ?>
                             <span class="flex-1 ms-3 text-left rtl:text-right whitespace-nowrap group-hover:text-white">

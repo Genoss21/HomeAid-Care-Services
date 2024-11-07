@@ -1,13 +1,12 @@
 <?php
 
-include 'admin_header.php'
+include '../includes/header.php'
 
     ?>
 
 <div class="flex flex-row h-screen">
     <!--Left Navbar-->
     <?php include 'sidebar.php' ?>
-    <!--Table-->
     <div class="basis-5/6 overflow-hidden">
         <!--Navbar for the Dashboard-->
         <?php include 'admin_navbar.php' ?>
@@ -83,32 +82,40 @@ include 'admin_header.php'
                                 </div>
                             </th>
                             <th scope="col" class="px-6 py-3">
-                                ID
+                                Client ID
                             </th>
                             <th scope="col" class="px-6 py-3">
-                                Username
+                                Full Name
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                Contact Information
                             </th>
                             <th scope="col" class="px-6 py-3">
                                 Email
                             </th>
                             <th scope="col" class="px-6 py-3">
-                                Role
+                                Address
                             </th>
                             <th scope="col" class="px-6 py-3">
-                                Status
+                                Account Status
                             </th>
                             <th scope="col" class="px-6 py-3">
-                                Last Login
+                                Last Interaction
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                Assigned Representative
                             </th>
                             <th scope="col" class="px-6 py-3">
                                 Action
                             </th>
+
+
                         </tr>
                     </thead>
 
                     <tbody class="overflow-y-auto">
                         <tr
-                            class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700 text-nowrap text-center">
+                            class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700 text-center text-nowrap">
                             <!-- Checkbox Column -->
                             <td class="w-4 p-4">
                                 <div class="flex items-center">
@@ -118,49 +125,56 @@ include 'admin_header.php'
                                 </div>
                             </td>
 
-                            <!-- ID Column -->
-                            <td class="px-6 py-4 text-sm">
-                                A001
-                            </td>
+                            <!-- Client ID Column -->
+                            <td class="px-6 py-4">C001</td>
 
                             <!-- Name and Image Column -->
                             <th scope="row"
                                 class="flex items-center px-6 py-4 text-sm font-medium whitespace-nowrap justify-center">
-                                <img class="w-8 h-8 rounded-full" src="../assets/Images/user.jpg" alt="Admin Image">
+                                <img class="w-8 h-8 rounded-full" src="../../public/assets/Images/user.jpg"
+                                    alt="Client Image">
                                 <div class="ps-3">
-                                    <div class="">Fritz Jerome Tobes</div>
+                                    <div class="">Emily Carter</div>
                                 </div>
                             </th>
 
+                            <!-- Contact Column -->
+                            <td class="px-6 py-4">+63 9123-456-7890</td>
+
                             <!-- Email Column -->
-                            <td class="px-6 py-4 text-sm">
-                                fritztobes.admin@hopitalcompany.com
-                            </td>
+                            <td class="px-6 py-4">emilycarter@example.com</td>
 
-                            <!-- Role Column -->
-                            <td class="px-6 py-4 text-sm">
-                                Super Admin
-                            </td>
+                            <!-- Address Column -->
+                            <td class="px-6 py-4">456 Elm St, Springfield, IL</td>
 
-                            <!-- Status Column -->
-                            <td class="px-6 py-4 text-sm">
+                            <!-- Account Status Column -->
+                            <td class="px-6 py-4">
                                 <div class="flex items-center justify-center">
                                     <div class="h-2.5 w-2.5 rounded-full bg-green-500 me-2"></div> Active
                                 </div>
                             </td>
 
-                            <!-- Last Login Column -->
-                            <td class="px-6 py-4 text-sm">
-                                10-25-2024
+                            <!-- Last Interaction Column -->
+                            <td class="px-6 py-4">10-29-2024</td>
+
+                            <!-- Assigned Representative Column -->
+                            <td class="px-6 py-4">
+                                <div class="flex items-center justify-center">
+                                    <img class="w-8 h-8 rounded-full" src="../assets/Images/user.jpg"
+                                        alt="Representative Image">
+                                    <div class="ps-2">
+                                        <div class="">Sarah Lee</div>
+                                    </div>
+                                </div>
                             </td>
 
-                            <!-- Actions Column -->
-                            <td class="px-6 py-4 text-sm">
-                                <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit
-                                    User</a>
+                            <!-- Action Column -->
+                            <td class="px-6 py-4">
+                                <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">View
+                                    Details</a>
                             </td>
+
                         </tr>
-
                     </tbody>
                 </table>
             </div>
@@ -169,4 +183,4 @@ include 'admin_header.php'
     </div>
 
 </div>
-<?php include 'admin_footer.php' ?>
+<?php include '../includes/footer.php' ?>

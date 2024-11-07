@@ -38,7 +38,8 @@
                             class="flex text-sm bg-gray-800 rounded-full focus:ring-4 focus:ring-gray-300"
                             aria-expanded="false" data-dropdown-toggle="dropdown-user">
                             <span class="sr-only">Open user menu</span>
-                            <img class="w-10 h-10 rounded-full" src="../assets/Images/Fritz.jpg" alt="user photo">
+                            <img class="w-10 h-10 rounded-full" src="../../public/assets/Images/Fritz.jpg"
+                                alt="user photo">
                         </button>
                     </div>
                     <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-xl shadow"
