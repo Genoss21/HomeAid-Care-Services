@@ -1,12 +1,21 @@
 <?php
-$pages = array();
-$pages["index.php"] = "Home";
-$pages["services_page.php"] = "Services";
-$pages["about_page.php"] = "About";
-$pages["contact_us_page.php"] = "Contact";
+$pages = array(
+    "index.php" => "Home",
+    "public/components/services_page.php" => "Services",
+    "about_page.php" => "About",
+    "contact_us_page.php" => "Contact"
+);
 
-$activePage = basename($_SERVER['SCRIPT_NAME']);
+// Get the active page basename
+$activePage = basename($_SERVER['PHP_SELF']); // This will give the current file name
+
+// Check if the active page is in the pages array
+$activePageName = $pages[$activePage] ?? null;
+
+// Debugging output to check the active page and its name
+echo "<!-- Active page: $activePage, Page name: $activePageName -->";
 ?>
+
 
 <!--Navbar-->
 

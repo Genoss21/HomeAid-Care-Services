@@ -3,7 +3,7 @@
 
 
 ?>
-<?php include 'header.php' ?>
+<?php include '../../src/includes/header.php' ?>
 <?php include 'navbar.php' ?>
 <section class="lg:p-16 px-5 py-10 !scroll-smooth">
 

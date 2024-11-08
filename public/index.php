@@ -4,12 +4,12 @@
 
 ?>
 
-<?php include 'header.php' ?>
-<?php include 'navbar.php' ?>
-<?php include 'hero_section.php' ?>
-<?php include 'our_services.php' ?>
-<?php include 'about_section.php' ?>
-<?php include 'testimonial.php' ?>
-<?php include 'our_team.php' ?>
-<?php include 'contact_us.php' ?>
-<?php include 'footer.php' ?>
+<?php include 'src/includes/header.php' ?>
+<?php include 'public/components/navbar.php' ?>
+<?php include 'public/components/hero_section.php' ?>
+<?php include 'public/components/our_services.php' ?>
+<?php include 'public/components/about_section.php' ?>
+<?php include 'public/components/testimonial.php' ?>
+<?php include 'public/components/our_team.php' ?>
+<?php include 'public/components/contact_us.php' ?>
+<?php include 'src/includes/footer.php' ?>
