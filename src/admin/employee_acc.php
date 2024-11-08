@@ -2,6 +2,7 @@
 
 include '../includes/header.php'
 
+
     ?>
 
 <div class="flex flex-row h-screen">
@@ -110,7 +111,9 @@ include '../includes/header.php'
                             <!-- Name and Image Column -->
                             <th scope="row"
                                 class="flex items-center px-6 py-4 text-sm font-medium whitespace-nowrap justify-center">
+
                                 <img class="w-8 h-8 rounded-full" src="../../public/assets/Images/user.jpg" alt="Admin Image">
+
                                 <div class="ps-3">
                                     <div class="">Fritz Jerome Tobes</div>
                                 </div>
@@ -147,4 +150,6 @@ include '../includes/header.php'
     </div>
 
 </div>
+
 <?php include '../includes/footer.php' ?>
+

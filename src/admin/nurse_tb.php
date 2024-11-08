@@ -1,6 +1,8 @@
 <?php
 
+
 include '../includes/header.php'
+
 
     ?>
 
@@ -133,8 +135,10 @@ include '../includes/header.php'
                             <!-- Name and Image Column -->
                             <td scope="row"
                                 class="flex items-center px-6 py-3 text-sm font-medium whitespace-nowrap justify-center">
+
                                 <img class="w-8 h-8 rounded-full" src="../../public/assets/Images/user.jpg"
                                     alt="Nurse Image">
+
                                 <div class="ps-2">
                                     <div class="">Arah Johnson</div>
                                 </div>
@@ -186,4 +190,6 @@ include '../includes/header.php'
     </div>
 
 </div>
+
 <?php include '../includes/footer.php' ?>
+
