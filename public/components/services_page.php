@@ -150,4 +150,4 @@
     </section>
 </section>
 <?php include 'contact_us.php' ?>
-<?php include 'footer.php' ?>
+<?php include '../../src/includes/footer.php' ?>

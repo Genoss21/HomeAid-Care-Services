@@ -1,14 +1,27 @@
 <?php
-$css_path = '';
+$css_path = 'public/css/styles.css'; // Default path from index.php location
 
-if (strpos($_SERVER['REQUEST_URI'], '/public') !== false && strpos($_SERVER['REQUEST_URI'], '/components') === false) {
-    $css_path = 'css/styles.css';
-} elseif (strpos($_SERVER['REQUEST_URI'], '/public/components') !== false) {
+// Adjust path based on current URL structure
+if (strpos($_SERVER['REQUEST_URI'], '/public/components') !== false) {
+    // If the file is within /public/components
     $css_path = '../css/styles.css';
-} elseif (strpos($_SERVER['REQUEST_URI'], '/src/admin') !== false || strpos($_SERVER['REQUEST_URI'], '/src/employee') !== false || strpos($_SERVER['REQUEST_URI'], '/src/client') !== false) {
+} elseif (strpos($_SERVER['REQUEST_URI'], '/public') !== false) {
+    // If the file is within /public but not in /public/components
+    $css_path = 'css/styles.css';
+} elseif (
+    strpos($_SERVER['REQUEST_URI'], '/src/admin') !== false ||
+    strpos($_SERVER['REQUEST_URI'], '/src/employee') !== false ||
+    strpos($_SERVER['REQUEST_URI'], '/src/client') !== false
+) {
+    // If the file is within any /src subdirectory
     $css_path = '../../public/css/styles.css';
 }
+
+// Debugging output to verify the correct path
+echo "<!-- CSS path: $css_path -->";
 ?>
+
+
 
 <!DOCTYPE html>
 <html lang="en" class="!scroll-smooth">
