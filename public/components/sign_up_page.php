@@ -4,7 +4,7 @@
 
 ?>
 
-<?php include 'header.php' ?>
+<?php include '../../src/includes/header.php' ?>
 <?php include 'navbar.php' ?>
 <div class="min-h-screen flex items-center justify-center bg-gray-700 bg-blend-multiply py-12 px-4 sm:px-6 lg:px-8 bg-no-repeat bg-cover relative"
     style="
@@ -89,4 +89,4 @@
         </div>
     </div>
 </div>
-<?php include 'footer.php' ?>
+<?php include '../../src/includes/footer.php' ?>

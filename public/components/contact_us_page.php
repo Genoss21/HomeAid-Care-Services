@@ -4,7 +4,7 @@
 
 ?>
 
-<?php include 'header.php' ?>
+<?php include '../../src/includes/header.php' ?>
 <?php include 'navbar.php' ?>
 <!--About section-->
 <div class="!scroll-smooth">
@@ -62,4 +62,4 @@
     </section>
 </div>
 
-<?php include 'footer.php' ?>
+<?php include '../../src/includes/footer.php' ?>
