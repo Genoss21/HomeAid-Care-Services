@@ -1,12 +1,29 @@
 <?php
-$pages = array();
-$pages["index.php"] = "Home";
-$pages["services_page.php"] = "Services";
-$pages["about_page.php"] = "About";
-$pages["contact_us_page.php"] = "Contact";
 
-$activePage = basename($_SERVER['SCRIPT_NAME']);
+$currentDir = dirname($_SERVER['SCRIPT_NAME']);
+
+// Define the $pages array based on the directory
+if (strpos($currentDir, 'public/components') !== false) {
+    $pages = [
+        "../../index.php" => "Home",
+        "../../public/components/services_page.php" => "Services",
+        "../../public/components/about_page.php" => "About",
+        "../../public/components/contact_us_page.php" => "Contact"
+    ];
+} else {
+    $pages = [
+        "index.php" => "Home",
+        "public/components/services_page.php" => "Services",
+        "public/components/about_page.php" => "About",
+        "public/components/contact_us_page.php" => "Contact"
+    ];
+}
+
+// Get the active page basename
+$activePage = basename($_SERVER['PHP_SELF']); // This will give the current file name
+
 ?>
+
 
 <!--Navbar-->
 
@@ -32,8 +49,12 @@ $activePage = basename($_SERVER['SCRIPT_NAME']);
                 class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
 
                 <?php foreach ($pages as $url => $title): ?>
+                    <?php
+                    // Extract just the filename from $url to compare with $activePage
+                    $pageFilename = basename($url);
+                    ?>
                     <li>
-                        <a class="<?php echo ($url === $activePage) ? 'nav-button-active' : 'nav-button-not-active'; ?> hover:text-[#098698]"
+                        <a class="<?php echo ($pageFilename === $activePage) ? 'nav-button-active' : 'nav-button-not-active'; ?> hover:text-[#098698]"
                             href="<?php echo $url; ?>">
                             <?php echo $title; ?>
                         </a>
