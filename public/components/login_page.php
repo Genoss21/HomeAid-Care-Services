@@ -8,7 +8,7 @@
 <?php include 'navbar.php' ?>
 <div class="min-h-screen flex items-center justify-center bg-gray-700 bg-blend-multiply py-12 px-4 sm:px-6 lg:px-8 bg-no-repeat bg-cover relative"
     style="
-        background-image: url('./assets/Images/BG2.jpg');
+        background-image: url('../../public/assets/images/BG2.jpg');
       ">
     <div class="grid grid-cols-2 w-full h-full">
         <div class="justify-center p-16">
@@ -22,7 +22,7 @@
                     expert advice, our team is dedicated to providing compassionate, professional care tailored to
                     your unique needs. Let us help you feel at home!
                 </p>
-                <img class="h-[450px] mx-auto" src="./assets/Images/login-animate.svg" alt="">
+                <img class="h-[450px] mx-auto" src="../../public/assets/images/login-animate.svg" alt="">
 
             </div>
         </div>

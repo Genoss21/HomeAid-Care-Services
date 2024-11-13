@@ -3,7 +3,7 @@
 <!--Hero section-->
 <div class="!scroll-smooth">
     <section
-        class="lg:max-h-[900px] mb-16 bg-center bg-cover bg-no-repeat bg-[url('./assets/Images/BG1.jpg')] bg-gray-800 bg-blend-multiply">
+        class="lg:max-h-[900px] mb-16 bg-center bg-cover bg-no-repeat bg-[url('./public/assets/images/BG1.jpg')] bg-gray-800 bg-blend-multiply">
         <div class="flex lg:flex-row flex-col lg:mx-16 lg:px-0 px-5">
             <div class="basis-1/2 max-w-screen-xl lg:py-24 lg:pt-[420px] pt-24">
                 <div class="border-l px-6">

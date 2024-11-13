@@ -17,7 +17,7 @@
                     building for
                     peace.</h1>
                 <div class="lg:p-16 p-2">
-                    <img src="./assets/Images/doctors-animate.svg" alt="">
+                    <img src="../../public/assets/images/doctors-animate.svg" alt="">
                 </div>
             </div>
 
