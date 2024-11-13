@@ -13,7 +13,7 @@
         <div class="h-10 border-b-2 lg:mx-24 mx-10 border-gray-500"></div>
         <div class="flex lg:flex-row flex-col px-5">
             <div class="basis-1/2 h-max-screen max-w-screen-xl lg:p-24 p-2">
-                <img src="./assets/Images/group-therapy-animate.svg" alt="">
+                <img src="../../public/assets/images/group-therapy-animate.svg" alt="">
             </div>
             <div class="basis-1/2 h-max-screen max-w-screen-xl lg:px-24">
                 <!--Contact Us -->
