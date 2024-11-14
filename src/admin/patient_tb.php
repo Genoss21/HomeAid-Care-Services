@@ -1,8 +1,6 @@
 <?php
 
-
 include '../includes/header.php'
-
 
     ?>
 
@@ -148,7 +146,8 @@ include '../includes/header.php'
                             <!-- Name and Image Column -->
                             <td scope="row"
                                 class="flex items-center px-6 py-3 text-sm font-medium whitespace-nowrap justify-center">
-                                <img class="w-8 h-8 rounded-full" src="../assets/Images/user.jpg" alt="Patient Image">
+                                <img class="w-8 h-8 rounded-full" src="../../public/assets/images/user.jpg"
+                                    alt="Patient Image">
                                 <div class="ps-2">
                                     <div class="">Emily Carter</div>
                                 </div>
@@ -177,7 +176,7 @@ include '../includes/header.php'
                             <!-- Doctor Assigned Column -->
                             <td scope="row" class=" px-6 py-3 font-medium text-sm whitespace-nowrap">
                                 <div class="flex items-center justify-center">
-                                    <img class="w-8 h-8 rounded-full" src="../assets/Images/user.jpg"
+                                    <img class="w-8 h-8 rounded-full" src="../../public/assets/images/user.jpg"
                                         alt="Patient Image">
                                     <div class="ps-2">
                                         <div class="">Dr. Sarah Johnson</div>
@@ -188,9 +187,7 @@ include '../includes/header.php'
                             <!-- Nurse Assigned Column -->
                             <td scope="row" class=" px-6 py-3 font-medium text-sm whitespace-nowrap">
                                 <div class="flex items-center justify-center">
-                                  
-                                    <img class="w-8 h-8 rounded-full" src="../../public/assets/Images/user.jpg"
-
+                                    <img class="w-8 h-8 rounded-full" src="../../public/assets/images/user.jpg"
                                         alt="Patient Image">
                                     <div class="ps-2">
                                         <div class="">Arah Johnson</div>
@@ -234,5 +231,4 @@ include '../includes/header.php'
     </div>
 
 </div>
-
 <?php include '../includes/footer.php' ?>

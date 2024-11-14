@@ -11,7 +11,7 @@ $dropdownMappings = [
     'doctor_tb.php' => 'data.php',
     'nurse_tb.php' => 'data.php',
     'client_tb.php' => 'data.php',
-    '../../public/index.php' => 'pages.php',
+    '../../index.php' => 'pages.php',
     '../../public/components/services_page.php' => 'pages.php',
     '../../public/components/about_page.php' => 'pages.php',
     '../../public/components/contact_us_page.php' => 'pages.php',
@@ -91,7 +91,7 @@ if (isset($mainButtons[$activePage])) {
 }
 
 ?>
-<div class="basis-1/6 bg-gray-900 text-gray-500 border-r-2">
+<div class="basis-1/6 bg-gray-900 text-gray-500 border-r-2 overflow-hidden">
     <div class="p-3">
         <ul class="flex flex-col space-y-4 pt-1">
             <?php foreach ($mainButtons as $url => $button): ?>
