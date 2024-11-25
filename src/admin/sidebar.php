@@ -12,9 +12,9 @@ $dropdownMappings = [
     'nurse_tb.php' => 'data.php',
     'client_tb.php' => 'data.php',
     '../../index.php' => 'pages.php',
-    '../../public/components/services_page.php' => 'pages.php',
-    '../../public/components/about_page.php' => 'pages.php',
-    '../../public/components/contact_us_page.php' => 'pages.php',
+    '../public/components/services_page.php' => 'pages.php',
+    '../public/components/about_page.php' => 'pages.php',
+    '../public/components/contact_us_page.php' => 'pages.php',
 ];
 
 // Determine the active dropdown based on the current page.
@@ -71,7 +71,7 @@ $mainButtons = [
 $dropdownItems = array(
     "users.php" => array("admin_acc.php" => "Admins Account", "employee_acc.php" => "Employees Account", "client_acc.php" => "Clients Account"),
     "data.php" => array("patient_tb.php" => "Patients data", "doctor_tb.php" => "Doctors data", "nurse_tb.php" => "Nurses data", "client_tb.php" => "Clients data"),
-    "pages.php" => array("../../public/index.php" => "Home", "../../public/components/services_page.php" => "Services", "../../public/components/about_page.php" => "About", "../../public/components/contact_us_page.php" => "Contact Us"),
+    "pages.php" => array("../../index.php" => "Home", "../../public/components/services_page.php" => "Services", "../../public/components/about_page.php" => "About", "../../public/components/contact_us_page.php" => "Contact Us"),
 );
 
 // Initialize the active tab title
@@ -91,9 +91,9 @@ if (isset($mainButtons[$activePage])) {
 }
 
 ?>
-<div class="basis-1/6 bg-gray-900 text-gray-500 border-r-2 overflow-hidden">
+<div class="basis-1/6 bg-gray-900 text-gray-500 border-r-2 overflow-auto scrollbar-thin">
     <div class="p-3">
-        <ul class="flex flex-col space-y-4 pt-1">
+        <ul class="flex flex-col space-y-4 pt-1 pb-16">
             <?php foreach ($mainButtons as $url => $button): ?>
                 <li
                     class="<?php echo ($url === $activeDropdown) ? 'users_dropdown_active' : 'users_dropdown_not_active'; ?>">
