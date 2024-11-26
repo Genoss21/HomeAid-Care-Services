@@ -30,7 +30,7 @@ $activePage = basename($_SERVER['PHP_SELF']); // This will give the current file
 <nav class="sticky top-0 bg-white z-50 !scroll-smooth border-b-2">
     <div class="w-full flex flex-wrap items-center justify-between mx-auto lg:px-16 p-3">
         <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="./assets/Images/healthcare-hospital-medical-16-svgrepo-com.svg" class="h-9" alt="" />
+            <img src="./public/assets/images/healthcare-hospital-medical-16-svgrepo-com.svg" class="h-9" alt="" />
             <span class="self-center text-2xl font-semibold whitespace-nowrap tracking-tighter text-[#098698]">HomeAid
                 Care
                 Services</span>
