@@ -34,8 +34,7 @@
                         Please login in to your account
                     </p>
                 </div>
-                <br>
-                <br>
+
                 <form class="mt-8 space-y-6" action="#" method="POST">
                     <input type="hidden" name="remember" value="true" />
                     <div class="relative">
@@ -81,7 +80,7 @@
                     </div>
                     <p class="flex flex-col items-center justify-center mt-10 text-center text-md text-gray-500">
                         <span>Don't have an account?</span>
-                        <a href="#"
+                        <a href="../../public/components/sign_up_page.php"
                             class="text-[#098698] hover:text-teal-400 no-underline hover:underline cursor-pointer transition ease-in duration-300">Sign
                             up</a>
                     </p>
