@@ -31,11 +31,9 @@
                 <div class="text-center">
                     <h2 class="mt-6 text-3xl font-bold text-gray-900">Welcome!</h2>
                     <p class="mt-2 text-sm text-gray-600">
-                        Please sign in to your account
+                        Create new account?
                     </p>
                 </div>
-                <br>
-                <br>
 
                 <!--Form starts here-->
                 <form class="mt-8 space-y-6" action="#" method="POST">
@@ -50,6 +48,14 @@
                     <div class="mt-8 content-center">
                         <label class="text-sm font-bold text-gray-700 tracking-wide">
                             Password
+                        </label>
+                        <input
+                            class="w-full content-center text-base py-2 border-b border-gray-300 focus:outline-none focus:border-teal-400"
+                            type="" placeholder="Enter your password" value="*****" />
+                    </div>
+                    <div class="mt-8 content-center">
+                        <label class="text-sm font-bold text-gray-700 tracking-wide">
+                            Re-Password
                         </label>
                         <input
                             class="w-full content-center text-base py-2 border-b border-gray-300 focus:outline-none focus:border-teal-400"
@@ -72,12 +78,12 @@
                     <div>
                         <button type="submit"
                             class="w-full flex justify-center bg-[#098698] text-gray-100 p-4 rounded-xl tracking-wide font-semibold focus:outline-none focus:shadow-outline hover:bg-teal-400 shadow-lg cursor-pointer transition ease-in duration-300">
-                            Sign in
+                            Sign up
                         </button>
                     </div>
                     <p class="flex flex-col items-center justify-center mt-10 text-center text-md text-gray-500">
                         <span>Already have an account?</span>
-                        <a href="#"
+                        <a href="../../public/components/login_page.php"
                             class="text-[#098698] hover:text-teal-400 no-underline hover:underline cursor-pointer transition ease-in duration-300">Login</a>
                     </p>
                 </form>
